@@ -1,0 +1,10 @@
+# Clarifications
+
+| Source | Clarification |
+| ------ | ------------- |
+|        |               |
+|        |               |
+|        |               |
+|        |               |
+|        |               |
+
