@@ -19,7 +19,7 @@ Overview & Vision? - or in problem background?
 
 [Problem Background](1.ProblemBackground/README.md)
 
-- [Business Goal](1.ProblemBackground/BusinessGoal.md)s and opportunities
+- [Business Goals, Requirements & Opportunities](1.ProblemBackground/BusinessGoalsRequirements.md)
 - Requirements
 - [Architecture Analysis](1.ProblemBackground/ArchitectureAnalysis.md)
 - [Actors and Actions](1.ProblemBackground/Personas.md)
