@@ -3,7 +3,7 @@
 Welcome to our entry to the O'Reilly Spring 2021 Architectural Kata. The aim of this documentation repository is to communicate our design for the problem described, for a stakeholder and development team audience.
 
 ## Members
-- Jacqui Read
+- Jacqui Read [[LinkedIn](https://www.linkedin.com/in/jacquelineread/)]
 - John McCarthy
 - Luke Gee
 - Shenal Silva
@@ -45,4 +45,9 @@ Overview & Vision? - or in problem background?
 
 ## Resources
 
+- [2021 Architecture Katas Presentation](docs/2021-fall-kick-off.pdf)
+- [2021 Kata Participating Teams Info](docs/participating-teams-info-katas-fall-2021.pdf)
+
 ## References
+
+- 
