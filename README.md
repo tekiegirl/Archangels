@@ -45,8 +45,8 @@ Overview & Vision? - or in problem background?
 
 ## Resources
 
-- [2021 Architecture Katas Presentation](docs/2021-fall-kick-off.pdf)
-- [2021 Kata Participating Teams Info](docs/participating-teams-info-katas-fall-2021.pdf)
+- [2021 Architecture Katas Presentation](assets/docs/2021-fall-kick-off.pdf)
+- [2021 Kata Participating Teams Info](assets/docs/participating-teams-info-katas-fall-2021.pdf)
 
 ## References
 
