@@ -1,3 +1,7 @@
+[> Home](../README.md)   [> Problem Background](README.md)
+
+---
+
 # Business Goals, Requirements & Opportunities
 
 
@@ -146,4 +150,5 @@ When a transactional customer purchases a meal, Farmacy Family will generate an 
 
 ------
 
-[> Home](README.md)
+[> Home](../README.md)   [> Problem Background](README.md) 
+
