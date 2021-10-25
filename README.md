@@ -22,7 +22,6 @@ Overview & Vision? - or in problem background?
 [Problem Background](1.ProblemBackground/README.md)
 
 - [Business Goals, Requirements & Opportunities](1.ProblemBackground/BusinessGoalsRequirements.md)
-- Requirements
 - [Architecture Analysis](1.ProblemBackground/ArchitectureAnalysis.md)
 - [Actors and Actions](1.ProblemBackground/Personas.md)
 - [Constraints & Assumptions](1.ProblemBackground/ConstraintsAndAssumptions.md)
@@ -52,4 +51,7 @@ Overview & Vision? - or in problem background?
 
 ## References
 
-- 
+- [Using logs to build a solid data infrastructure (or: why dual writes are a bad idea)](https://martin.kleppmann.com/2015/05/27/logs-for-data-infrastructure.html)
+- [Architectural Katas 2020 Fall - Group ArchColider](https://github.com/ldynia/archcolider)
+- [Architectural Kata Spring 2021 - The Mad Katas](https://github.com/tekiegirl/TheMadKatas) (Jacqui Read's previous kata entry)
+
