@@ -2,6 +2,8 @@
 
 Welcome to our entry to the O'Reilly Spring 2021 Architectural Kata. The aim of this documentation repository is to communicate our design for the problem described, for a stakeholder and development team audience.
 
+<img src="C:\Users\JRead\OneDrive - Ordnance Survey\Dev\Archangels\assets\images\TheArchangels.png" alt="TheArchangels" style="zoom:50%;" />
+
 ## Members
 - Jacqui Read [[LinkedIn](https://www.linkedin.com/in/jacquelineread/)]
 - John McCarthy
