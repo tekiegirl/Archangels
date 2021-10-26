@@ -7,7 +7,7 @@ Welcome to our entry to the O'Reilly Spring 2021 Architectural Kata. The aim of 
 ## Members
 - Jacqui Read [[LinkedIn](https://www.linkedin.com/in/jacquelineread/)]
 - John McCarthy
-- Luke Gee
+- Luke Gee [[LinkedIn](https://www.linkedin.com/in/luke-gee-nbyuk/)]
 - Shenal Silva
 - Vikram Pawar
 
