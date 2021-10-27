@@ -1,4 +1,4 @@
-# Record architecture decisions
+# Use Crypto Shredding
 
 Date: 2021-10-21
 

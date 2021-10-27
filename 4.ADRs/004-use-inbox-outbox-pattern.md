@@ -1,4 +1,4 @@
-# Record architecture decisions
+# Use Inbox and Outbox Pattern When Publishing/Subscribing to Events
 
 Date: 2021-10-21
 

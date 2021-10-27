@@ -1,4 +1,4 @@
-# Record architecture decisions
+# Use Domain Events as the primary mechanism of communication
 
 Date: 2021-10-21
 
