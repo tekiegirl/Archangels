@@ -673,10 +673,10 @@
     {
       "id": "0sCVC7B-NJhfAnQbvklyP",
       "type": "arrow",
-      "x": 1514.1636729396776,
-      "y": -50.60869565217392,
-      "width": 2.391030707388154,
-      "height": 6.248447204968855,
+      "x": 1516.0156350424795,
+      "y": -50.60869565217391,
+      "width": 2.442765514547318,
+      "height": 6.248447204968869,
       "angle": 0,
       "strokeColor": "#000000",
       "backgroundColor": "transparent",
@@ -688,8 +688,8 @@
       "groupIds": [],
       "strokeSharpness": "round",
       "seed": 1722068468,
-      "version": 430,
-      "versionNonce": 2025144140,
+      "version": 454,
+      "versionNonce": 194818764,
       "isDeleted": false,
       "boundElementIds": null,
       "points": [
@@ -698,8 +698,8 @@
           0
         ],
         [
-          -2.391030707388154,
-          -6.248447204968855
+          -2.442765514547318,
+          -6.248447204968869
         ]
       ],
       "lastCommittedPoint": null,
@@ -722,7 +722,7 @@
       "x": 1460,
       "y": -20,
       "width": 132,
-      "height": 50,
+      "height": 75,
       "angle": 0,
       "strokeColor": "#000000",
       "backgroundColor": "transparent",
@@ -734,18 +734,18 @@
       "groupIds": [],
       "strokeSharpness": "sharp",
       "seed": 919512820,
-      "version": 78,
-      "versionNonce": 129641332,
+      "version": 89,
+      "versionNonce": 1351490636,
       "isDeleted": false,
       "boundElementIds": [
         "0sCVC7B-NJhfAnQbvklyP"
       ],
-      "text": "User interest\nGeo data",
+      "text": "User interest\nGeo data\nOrder data",
       "fontSize": 20,
       "fontFamily": 1,
       "textAlign": "left",
       "verticalAlign": "top",
-      "baseline": 43
+      "baseline": 68
     },
     {
       "type": "rectangle",
