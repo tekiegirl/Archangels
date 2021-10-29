@@ -1,3 +1,7 @@
+[> Home](README.md)
+
+---
+
 # Glossary
 
 | Term                   | Definition                                                   |
