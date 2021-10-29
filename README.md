@@ -54,4 +54,5 @@ Overview & Vision? - or in problem background?
 - [Using logs to build a solid data infrastructure (or: why dual writes are a bad idea)](https://martin.kleppmann.com/2015/05/27/logs-for-data-infrastructure.html)
 - [Architectural Katas 2020 Fall - Group ArchColider](https://github.com/ldynia/archcolider)
 - [Architectural Kata Spring 2021 - The Mad Katas](https://github.com/tekiegirl/TheMadKatas) (Jacqui Read's previous kata entry)
+- [C4 Model](https://c4model.com/)
 
