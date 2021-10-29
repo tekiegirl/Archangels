@@ -4,7 +4,7 @@
 
 # Problem Background
 
-[Business Goals, Requirements & Opportunities](BusinessGoalRequirements.md)
+[Business Goals, Requirements & Opportunities](BusinessGoalsRequirements.md)
 
 * Business Goals & Drivers
 * Architecturally significant requirements
