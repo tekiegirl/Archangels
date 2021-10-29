@@ -17,6 +17,8 @@ The following diagrams use the standard C4 notation.
 A **System Context** diagram provides a starting point, showing how the software system in scope fits into the world around it.[^](#expl) 
 This diagram shows how the main users of Farmacy Family interact with the system, and the other systems that Farmacy Family system interacts with.
 
+![ContextDiagram](../../assets/diagrams/ContextDiagram.png)
+
 ---
 
 <a id="expl"></a>^ explanations from https://c4model.com/
