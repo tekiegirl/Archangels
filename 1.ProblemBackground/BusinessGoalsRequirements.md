@@ -66,7 +66,7 @@ onboarding process for those customers
 
 ## Architecturally Significant Business Requirements
 
-| # | Significant Architectural Requirements | From BG |
+| # | Significant Architectural Requirements | Business Goal |
 |----|----|----|
 | 1 | Customer profiles | 1 |
 | 2 | Geographical trend analysis  | 1 |
