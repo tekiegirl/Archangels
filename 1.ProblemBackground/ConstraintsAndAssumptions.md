@@ -1,3 +1,7 @@
+[> Home](../README.md)  [> Problem Background](README.md)
+
+---
+
 # Constraints
 
 1. Farmacy Family must integrate seamlessly with the design for Farmacy Foods, although some changes to Farmacy Foods may be required for the integrations required.
@@ -14,4 +18,3 @@
 ------
 
 [> Home](../README.md)  [> Problem Background](README.md)
-
