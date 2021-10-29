@@ -17,8 +17,13 @@ The following diagrams use the standard C4 notation.
 A **System Context** diagram provides a starting point, showing how the software system in scope fits into the world around it.[^](#expl) 
 This diagram shows how the main users of Farmacy Family interact with the system, and the other systems that Farmacy Family system interacts with.
 
-![ContextDiagram](../../assets/diagrams/ContextDiagram.png)
+![Context Diagram](../../assets/diagrams/ContextDiagram.png)
 
+## Container Diagram (Level 2)
+
+A Container diagram zooms into the software system in scope, showing the high-level technical building blocks. The following diagram breaks down the Farmacy Family system into groups of related functionality, or domains, and shows how they interact with each other and how the users of the system interact with the functionality.
+
+![Container Diagram](../../assets/diagrams/ContainerDiagram.png)
 ---
 
 <a id="expl"></a>^ explanations from https://c4model.com/
