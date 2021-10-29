@@ -1,3 +1,7 @@
+[> Home](README.md)
+
+---
+
 # Clarifications
 
 | Source                  | Clarification                                                |
