@@ -2,7 +2,7 @@
 
 ---
 
-# Business Goals, Requirements & Opportunities
+# Business Goals and Drivers
 
 
 ## Business Goals
@@ -30,6 +30,10 @@ Kwaku Osei is the founder of Farmacy Food, a a tech-enabled healthy food startup
 of Farmacy Family will help gather new investors and prove
 better dietary outcomes in member communities.
 2. Food being wasted from having the wrong mix of foods in a particular fridge.
+
+## Opportunities
+
+# Requirements and Engagement model
 
 ## Engagement Models
 
@@ -147,9 +151,6 @@ When a transactional customer purchases a meal, Farmacy Family will generate an 
 
 ![Function View of the requirements](../assets/diagrams/FunctionalView.png)
 
-## Opportunities
-
-- ...
 
 
 ------
