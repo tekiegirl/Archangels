@@ -21,9 +21,32 @@ This diagram shows how the main users of Farmacy Family interact with the system
 
 ## Container Diagram (Level 2)
 
-A Container diagram zooms into the software system in scope, showing the high-level technical building blocks. The following diagram breaks down the Farmacy Family system into groups of related functionality, or domains, and shows how they interact with each other and how the users of the system interact with the functionality.
+A Container diagram zooms into the software system in scope, showing the high-level technical building blocks.[^](#exp1) The following diagram breaks down the Farmacy Family system into groups of related functionality, or domains, and shows how they interact with each other and how the users of the system interact with the functionality.
 
 ![Container Diagram](../../assets/diagrams/ContainerDiagram.png)
+
+## Component Diagrams (Level 3)
+
+A **Component** diagram zooms into an individual container, showing the components inside it.[^](#expl)
+The following diagrams break down the containers/functionality shown above further, into components which represent individually deployable services.
+
+#### Relevant ADRs
+
+- 
+
+### Medical Management
+
+The following diagram shows the individually deployable services in the Medical Management domain, and how they interact with each other, users and other domains.
+
+#### Relevant ADRs
+
+- 
+
+![Medical Component Diagram](../../assets/diagrams/MedicalComponentDiagram.png)
+
+
+
+
 ---
 
 <a id="expl"></a>^ explanations from https://c4model.com/
