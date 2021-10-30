@@ -6,14 +6,13 @@
 
 [Business Goals, Requirements & Opportunities](BusinessGoalsRequirements.md)
 
-* Business Goals 
 * Background
+* Business Goals 
 * Business Drivers
-* Engagement Models
+* Requirements and Engagement Models
 * Architecturally Significant Requirements
 * Significant Non-functional Requirements
-* Functional View of the Requirements
-* Opportunities
+
 
 [Actors, Actions & Significant Scenarios](Personas.md)
 

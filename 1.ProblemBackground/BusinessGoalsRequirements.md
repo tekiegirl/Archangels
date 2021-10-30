@@ -4,6 +4,13 @@
 
 # Business Goals and Drivers
 
+## Background
+
+Farmacy Family is an enhancement of the existing Farmacy Foods system (designed by Arch Colider) from the first Kata exercise that adds tighter engagement with their customers.
+
+### Kwasu Osei, The Founder, Farmacy Food
+
+Kwaku Osei is the founder of Farmacy Food, a a tech-enabled healthy food startup that to seeks to make health and wellness radically affordable and accessible, and Cooperative Capital, a community-based private equity fund that enables residents to pool their money together to make promising investments within their community.
 
 ## Business Goals
 
@@ -15,23 +22,12 @@
 
 Thus, the overall goal of Farmacy Family is to connect, gather, analyze and communicate. 
 
-## Background
-
-Farmacy Family is an enhancement of the existing Farmacy Foods system (designed by Arch Colider) from the first Kata exercise that adds tighter engagement with their customers.
-
-
-### Kwasu Osei, The Founder, Farmacy Food
-
-Kwaku Osei is the founder of Farmacy Food, a a tech-enabled healthy food startup that to seeks to make health and wellness radically affordable and accessible, and Cooperative Capital, a community-based private equity fund that enables residents to pool their money together to make promising investments within their community.
-
 ## Business Drivers 
 
 1. Improved use of analytics driven through the new integration
 of Farmacy Family will help gather new investors and prove
 better dietary outcomes in member communities.
 2. Food being wasted from having the wrong mix of foods in a particular fridge.
-
-## Opportunities
 
 # Requirements and Engagement model
 
