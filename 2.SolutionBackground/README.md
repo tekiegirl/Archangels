@@ -6,6 +6,7 @@
 
 * [Architecture Principles](ArchitecturePrinciples.md)
 * [Overall Architecture Style Analysis](ArchitecturePatterns.md)
+* [System Approach](ArchitecturePatterns.md)
 * [Data Store Solution](datastore/README.md)
 * [Deployment](Deployment.md)
 * [Roadmap](Roadmap.md)
