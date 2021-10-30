@@ -15,9 +15,11 @@
 * Functional View of the Requirements
 * Opportunities
 
-[Actors and Actions](Personas.md)
+[Actors, Actions & Significant Scenarios](Personas.md)
 
-* List of actors and mapping to actions
+* List of actors
+* Actors mapping to actions
+* Significant scenario flow diagrams
 
 [Constraints and Assumptions](ConstraintsAndAssumptions.md)
 
