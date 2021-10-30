@@ -17,15 +17,15 @@ The identified actors of Farmacy Family and their actions are as follows.
 
 ### 01  Onboard Farmacy Foods Customer to Farmacy Family
 
-![Scenario-OnboardFFoodsCustomer](C:/Users/JRead/OneDrive - Ordnance Survey/Dev/Archangels/assets/diagrams/Scenario-OnboardFFoodsCustomer.png)
+![Scenario-OnboardFFoodsCustomer](../assets/diagrams/Scenario-OnboardFFoodsCustomer.png)
 
 ### 02 Share Medical Data with Clinic
 
-![Scenario-ShareProfileWithClinic](C:/Users/JRead/OneDrive - Ordnance Survey/Dev/Archangels/assets/diagrams/Scenario-ShareProfileWithClinic.png)
+![Scenario-ShareProfileWithClinic](../assets/diagrams/Scenario-ShareProfileWithClinic.png)
 
 ### 03 Request Dietician Advice
 
-![Scenario-RequestDieticianAdvice](C:/Users/JRead/OneDrive - Ordnance Survey/Dev/Archangels/assets/diagrams/Scenario-RequestDieticianAdvice.png)
+![Scenario-RequestDieticianAdvice](../assets/diagrams/Scenario-RequestDieticianAdvice.png)
 
 
 ------
