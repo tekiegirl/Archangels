@@ -9,7 +9,7 @@ Welcome to our entry to the O'Reilly Spring 2021 Architectural Kata. The aim of 
 - John McCarthy
 - Luke Gee [[LinkedIn](https://www.linkedin.com/in/luke-gee-nbyuk/)]
 - Shenal Silva
-- Vikram Pawar
+- Vikram Pawar[[LinkedIn](https://www.linkedin.com/in/vikrammpawar/)]
 
 ## Solution Structure
 
@@ -54,4 +54,5 @@ Welcome to our entry to the O'Reilly Spring 2021 Architectural Kata. The aim of 
 - [Architectural Katas 2020 Fall - Group ArchColider](https://github.com/ldynia/archcolider)
 - [Architectural Kata Spring 2021 - The Mad Katas](https://github.com/tekiegirl/TheMadKatas) (Jacqui Read's previous kata entry)
 - [C4 Model](https://c4model.com/)
-
+- [EventStorming](https://www.eventstorming.com/)
+  
