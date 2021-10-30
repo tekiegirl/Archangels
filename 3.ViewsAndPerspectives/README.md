@@ -4,6 +4,10 @@
 
 # Views and Perspectives
 
+- [Functional View](FunctionalView/README.md)
+  
+- [Event Storming](EventSrorming/README.md)
+
 - [Scenario Flow Diagrams](scenarios/README.md)
 
 - [C4 Models](C4Models/README.md)
