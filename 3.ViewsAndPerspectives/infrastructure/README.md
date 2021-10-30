@@ -57,6 +57,8 @@ The following diagram shows the individually deployable services in the Analytic
 
 The following diagram shows the individually deployable services in the User Management domain, and how they interact with each other, users and other domains.
 
+![User Component Diagram](../../assets/diagrams/UserComponentDiagram.png)
+
 #### Relevant ADRs
 
 - 
