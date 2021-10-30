@@ -15,7 +15,7 @@
 
 Thus, the overall goal of Farmacy Family is to connect, gather, analyze and communicate. 
 
-## Background:
+## Background
 
 Farmacy Family is an enhancement of the existing Farmacy Foods system (designed by Arch Colider) from the first Kata exercise that adds tighter engagement with their customers.
 
@@ -142,6 +142,10 @@ When a transactional customer purchases a meal, Farmacy Family will generate an 
 ## Significant Non-Functional requirements 
 
 1. The new system must seamlessly incorporate into Farmacy Foods.
+
+## Functional View of the Requirements
+
+![Function View of the requirements](../assets/diagrams/FunctionalView.png)
 
 ## Opportunities
 

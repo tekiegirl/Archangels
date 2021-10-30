@@ -6,8 +6,13 @@
 
 [Business Goals, Requirements & Opportunities](BusinessGoalsRequirements.md)
 
-* Business Goals & Drivers
-* Architecturally significant requirements
+* Business Goals 
+* Background
+* Business Drivers
+* Engagement Models
+* Architecturally Significant Requirements
+* Singnificant Non-functional Requirements
+* Functional View of the Requirements
 * Opportunities
 
 [Actors and Actions](Personas.md)
