@@ -10,19 +10,19 @@ By identifying the key architecture characteristics for this solution we can the
 
 ### Candidate Architecture Characteristics
 
-performance    responsiveness    availability    fault tolerance    scalability/elasticity    data integrity    data consistency    adaptability    extensibility    interoperability    concurrency    deployability    testability    abstraction    workflow    configurability    recoverability    reliability    maintainability    authorisation
+performance    responsiveness    availability    fault-tolerance    scalability/elasticity    data integrity    data consistency    adaptability    extensibility    interoperability    concurrency    deployability    testability    abstraction    workflow    configurability    recoverability    reliability    authorisation    agility    cost    domain-partitioning    evolvability    integration
 
 ### Selected Architecture Characteristics
 
-| Top 3 | Characteristic         | Source                                                       |
-| ----- | ---------------------- | ------------------------------------------------------------ |
-| Y     | Interoperability       | Integration with Farmacy Foods (converting Foods transactional customers to Family engaged customers, and analytics feedback), and with dieticians and clinics. |
-|       | Data Integrity         | Generate analytical data from medical information, geographical data, etc, to demonstrate the benefits of FF, improve fridge supplies for Foods, and exchange analytical data with clinics. Must be correct as is medical data. |
-|       | Scalability/Elasticity | Analysis domain, and some other domains like reference material / media, likely to require more resources (especially computational) at different times. |
-| Y     | Configurability        | Customers have fine-grained control what other customers can see on their profile, and give permissions for e.g. clinics to access their medical data. |
-| Y     | Authorisation          | Although normally an implicit architecture characteristic (see below) this is promoted here due to clinician and dietician needing authorisation from a customer user to access medical information. |
-|       | Workflow               | Transactional Foods customers must be onboarded as engaged Family customers, with a completed profile. |
-|       | Fault Tolerance        | Community is the most important part of Family. It consists of many aspects, e.g. forums, events, classes, and so each community subdomain must be fault-tolerant of the others else one small problem could take the whole community domain down. |
+| Top 3 | Characteristic               | Source                                                       |
+| ----- | ---------------------------- | ------------------------------------------------------------ |
+| Y     | Interoperability/Integration | Integration with Farmacy Foods (converting Foods transactional customers to Family engaged customers, and analytics feedback), and with dieticians and clinics. |
+|       | Data Integrity               | Generate analytical data from medical information, geographical data, etc, to demonstrate the benefits of FF, improve fridge supplies for Foods, and exchange analytical data with clinics. Must be correct as is medical data. |
+|       | Scalability/Elasticity       | Analysis domain, and some other domains like reference material / media, likely to require more resources (especially computational) at different times. |
+| Y     | Configurability              | Customers have fine-grained control what other customers can see on their profile, and give permissions for e.g. clinics to access their medical data. |
+| Y     | Authorisation                | Although normally an implicit architecture characteristic (see below) this is promoted here due to clinician and dietician needing authorisation from a customer user to access medical information. |
+|       | Workflow                     | Transactional Foods customers must be onboarded as engaged Family customers, with a completed profile. |
+|       | Fault-Tolerance              | Community is the most important part of Family. It consists of many aspects, e.g. forums, events, classes, and so each community subdomain must be fault-tolerant of the others else one small problem could take the whole community domain down. |
 
 ### Implicit Architecture Characteristics
 
