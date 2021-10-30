@@ -45,6 +45,46 @@ The following diagram shows the individually deployable services in the Medical 
 ![Medical Component Diagram](../../assets/diagrams/MedicalComponentDiagram.png)
 
 
+### Analytics Management
+
+The following diagram shows the individually deployable services in the Analytics Management domain, and how they interact with each other, users and other domains.
+
+#### Relevant ADRs
+
+- 
+
+### User Management
+
+The following diagram shows the individually deployable services in the User Management domain, and how they interact with each other, users and other domains.
+
+#### Relevant ADRs
+
+- 
+
+### Events Management
+
+The following diagram shows the individually deployable services in the Events Management domain, and how they interact with each other, users and other domains.
+
+#### Relevant ADRs
+
+- 
+
+### Datastore Management
+
+The following diagram shows the individually deployable services in the Datastore Management domain, and how they interact with each other, users and other domains.
+
+#### Relevant ADRs
+
+- 
+
+### Messaging Management
+
+The following diagram shows the individually deployable services in the Messaging Management domain, and how they interact with each other, users and other domains.
+
+#### Relevant ADRs
+
+- 
+
 
 
 ---
