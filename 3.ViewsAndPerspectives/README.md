@@ -6,7 +6,7 @@
 
 - [Functional View](FunctionalView/README.md)
   
-- [Event Storming](EventSrorming/README.md)
+- [Event Storming](EventStorming/README.md)
 
 - [Scenario Flow Diagrams](scenarios/README.md)
 
@@ -15,3 +15,4 @@
 ------
 
 [> Home](../README.md)
+
