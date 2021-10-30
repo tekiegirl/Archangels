@@ -147,11 +147,6 @@ When a transactional customer purchases a meal, Farmacy Family will generate an 
 
 1. The new system must seamlessly incorporate into Farmacy Foods.
 
-# Functional View of the Requirements
-
-![Function View of the requirements](../assets/diagrams/FunctionalView.png)
-
-
 
 ------
 

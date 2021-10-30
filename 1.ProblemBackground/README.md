@@ -11,7 +11,7 @@
 * Business Drivers
 * Engagement Models
 * Architecturally Significant Requirements
-* Singnificant Non-functional Requirements
+* Significant Non-functional Requirements
 * Functional View of the Requirements
 * Opportunities
 

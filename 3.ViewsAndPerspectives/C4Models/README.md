@@ -2,7 +2,7 @@
 
 ---
 
-# C4 Infrastructure Models
+# C4 Models
 
 A C4 model is a common set of abstractions to create used to describe the static structure of a software system; these abstractions having four levels: **software system**, **containers**, **components** and **code**. **People** use the software system.
 
