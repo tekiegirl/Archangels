@@ -32,8 +32,6 @@ Welcome to our entry to the O'Reilly Spring 2021 Architectural Kata. The aim of 
 - [Overall Architecture Style Analysis](2.SolutionBackground/ArchitecturePatterns.md)
 - [Datastore Solution Overview](2.SolutionBackground/DataStore.md)
 - [Deployment](2.SolutionBackground/Deployment.md)
-- [Migration](2.SolutionBackground/Migration.md)
-- [Roadmap](2.SolutionBackground/Roadmap.md)
 - [ADRs](4.ADRs/README.md)
 
 [Views & Perspectives](3.ViewsAndPerspectives/README.md)
