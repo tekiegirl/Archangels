@@ -43,7 +43,7 @@ The requirement numbers used here match those used in [Business Goals and Requir
 
 # Requirement #4
 
-![Req #4](../../assets/diagrams/DieticianAdviceAndInteraction.png)
+![Req #4](../../assets/diagrams/04DieticianAdviceAndInteraction.png)
 
 # Requirement #8
 ![Req #8](../../assets/diagrams/08ThirdPartyRelationships.png)
