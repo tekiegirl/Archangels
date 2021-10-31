@@ -4,7 +4,7 @@
 
 # Problem Background
 
-[Business Goals, Requirements & Opportunities](BusinessGoalsRequirements.md)
+[Business Goals, Drivers and Requirements](BusinessGoalsDriversAndRequirements.md)
 
 * Background
 * Business Goals 
@@ -14,7 +14,7 @@
 * Significant Non-functional Requirements
 
 
-[Actors, Actions & Significant Scenarios](Personas.md)
+[Actors, Actions & Significant Scenarios](ActorsActionsAndSignificantScenarios.md)
 
 * List of actors
 * Actors mapping to actions
