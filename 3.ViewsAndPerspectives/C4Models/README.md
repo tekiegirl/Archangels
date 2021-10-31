@@ -42,18 +42,10 @@ The following diagram shows the individually deployable services in the Medical 
 #### Relevant ADRs
 
 - [005 use-crypto-shredding](../../4.ADRs/005-use-crypto-shredding.md)
+- [010 We-will-use-a-secure-data-solution](../../4.ADRs/010-We-will-use-a-secure-data-solution.md)
 
 ![Medical Component Diagram](../../assets/diagrams/MedicalComponentDiagram.png)
 
-
-### Analytics Management
-
-The following diagram shows the individually deployable services in the Analytics Management domain, and how they interact with each other, users and other domains.
-
-#### Relevant ADRs
-
-- [008 We-will-use-a-graph-store-for-analytics](../../4.ADRs/008-We-will-use-a-graph-store-for-analytics.md)
-- 
 
 ### User Management
 
@@ -68,6 +60,7 @@ The following diagram shows the individually deployable services in the User Man
 
 ## Next Steps
 
+- [ ] Add Analytics Management
 - [ ] Add Events Management
 - [ ] Add Datastore Management
 - [ ] Add Messaging Management
