@@ -6,7 +6,7 @@
 
 ## Identified Key Architectural Characteristics
 
-The [key architectural characteristics](../1.ProblemBackground/ArchitectureAnalysis.md) that were identified help us to select and overall architecture style.
+The [key architectural characteristics](../1.ProblemBackground/ArchitectureAnalysis.md) that were identified help us to select and overall architecture style. The top three are shown in bold.
 
 - **Interoperability**
 - Data Integrity
@@ -38,16 +38,15 @@ The above matrix gives us two candidates for our architecture:
 
 - Interoperability and configurability score fairly low, which is a concern with them being two of the top three characteristics.
 - Fault-tolerance, elasticity, scalability and workflow all score highly, four of the seven characteristics.
-
-
+- Configurability is a concern, scoring low, but it is configurability of the profile that is important and not of the system as a whole.
 
 ## Conclusion
 
-All three options have trade-offs, but the trade-offs for the Service-Based architecture can be mitigated by using containerisation, a scalable graph database, orchestrator services, and employing queues where needed.
+Both options have trade-offs, but the trade-offs for the Event-Driven architecture are lower overall. The lower score for interoperability should be mitigated by using an interface for integration with Farmacy Foods, and configurability of profiles is different from configurability of the whole system.
 
 ### Decision
 
-ADR: [002 We-will-use-a-Service-Based-backend-architecture](../4.ADRs/002We-will-use-a-Service-Based-backend-architecture.md)
+ADR: [007 We-will-use-an-event-driven-backend-architecture](../4.ADRs/007-We-will-use-an-event-driven-backend-architecture.md)
 
 ---
 
