@@ -21,6 +21,7 @@
 
 [008 We-will-use-a-graph-store-for-analytics](008-We-will-use-a-graph-store-for-analytics.md)
 
+[009 We-will-use-a-blob-storage-for-static-content](009-We-will-use-a-blob-storage-for-static-content.md)
 
 ------
 
