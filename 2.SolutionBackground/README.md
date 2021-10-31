@@ -10,7 +10,7 @@
 * [Data Store Solution](DataStore.md)
 * [Deployment](Deployment.md)
 * [Roadmap](Roadmap.md)
-* [ADRs](../4.ADRs)
+* [ADRs](../4.ADRs/README.md)
 
 ------
 

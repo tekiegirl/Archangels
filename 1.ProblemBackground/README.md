@@ -13,6 +13,11 @@
 * Architecturally Significant Requirements
 * Significant Non-functional Requirements
 
+[Architecture Analysis](ArchitectureAnalysis.md)
+
+- Key architecture characteristics
+- Architectural Quanta
+- System Granularity
 
 [Actors, Actions & Significant Scenarios](ActorsActionsAndSignificantScenarios.md)
 

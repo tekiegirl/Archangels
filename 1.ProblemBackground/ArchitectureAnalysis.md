@@ -153,6 +153,10 @@ See [Datastore Solution Overview](../2.SolutionBackground/datastore/README.md).
 | Clinic        | Family to Clinic    | Customer Profile | Clinics can be given permission to access customer medical information in the customer profile |
 | Clinic        | 2-way               | Message          | Clinics and customers can message each other                 |
 
+Next Steps:
+
+- [ ] Make decisions and record in ADRs about system granularity.
+
 ---
 
 [> Home](../README.md)   [> Problem Background](README.md)
