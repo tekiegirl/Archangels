@@ -4,7 +4,7 @@
 
 # C4 Models
 
-A C4 model is a common set of abstractions to create used to describe the static structure of a software system; these abstractions having four levels: **software system**, **containers**, **components** and **code**. **People** use the software system.
+A C4 model is a common set of abstractions used to describe the static structure of a software system; these abstractions having four levels: **software system**, **containers**, **components** and **code**. **People** use the software system.
 
 The following diagrams use the standard C4 notation.
 
