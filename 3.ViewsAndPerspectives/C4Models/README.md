@@ -32,7 +32,8 @@ The following diagrams break down the containers/functionality shown above furth
 
 #### Relevant ADRs
 
-- 
+- [003 component-communication](../../4.ADRs/003-component-communication.md)
+- [004 use-inbox-outbox-pattern](../../4.ADRs/004-use-inbox-outbox-pattern.md)
 
 ### Medical Management
 
@@ -40,18 +41,11 @@ The following diagram shows the individually deployable services in the Medical 
 
 #### Relevant ADRs
 
-- 
+- [005 use-crypto-shredding](../../4.ADRs/005-use-crypto-shredding.md)
+- [010 We-will-use-a-secure-data-solution](../../4.ADRs/010-We-will-use-a-secure-data-solution.md)
 
 ![Medical Component Diagram](../../assets/diagrams/MedicalComponentDiagram.png)
 
-
-### Analytics Management
-
-The following diagram shows the individually deployable services in the Analytics Management domain, and how they interact with each other, users and other domains.
-
-#### Relevant ADRs
-
-- 
 
 ### User Management
 
@@ -63,30 +57,13 @@ The following diagram shows the individually deployable services in the User Man
 
 - 
 
-### Events Management
 
-The following diagram shows the individually deployable services in the Events Management domain, and how they interact with each other, users and other domains.
+## Next Steps
 
-#### Relevant ADRs
-
-- 
-
-### Datastore Management
-
-The following diagram shows the individually deployable services in the Datastore Management domain, and how they interact with each other, users and other domains.
-
-#### Relevant ADRs
-
-- 
-
-### Messaging Management
-
-The following diagram shows the individually deployable services in the Messaging Management domain, and how they interact with each other, users and other domains.
-
-#### Relevant ADRs
-
-- 
-
+- [ ] Add Analytics Management
+- [ ] Add Events Management
+- [ ] Add Datastore Management
+- [ ] Add Messaging Management
 
 
 ---

@@ -17,6 +17,13 @@
 
 [006 consider-buy-vs-build](006-consider-buy-vs-build.md)
 
+[007 We-will-use-an-event-driven-backend-architecture](007-We-will-use-an-event-driven-backend-architecture.md)
+
+[008 We-will-use-a-graph-store-for-analytics](008-We-will-use-a-graph-store-for-analytics.md)
+
+[009 We-will-use-a-blob-storage-for-static-content](009-We-will-use-a-blob-storage-for-static-content.md)
+
+[010 We-will-use-a-secure-data-solution](010-We-will-use-a-secure-data-solution.md)
 
 ------
 
