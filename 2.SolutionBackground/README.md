@@ -4,7 +4,6 @@
 
 # Solution Background
 
-* [Solution Overview](SolutionOverview.md)
 * [Architecture Principles](ArchitecturePrinciples.md)
 * [Overall Architecture Style Analysis](ArchitecturePatterns.md)
 * [Data Store Solution](DataStore.md)
