@@ -23,6 +23,8 @@
 
 [009 We-will-use-a-blob-storage-for-static-content](009-We-will-use-a-blob-storage-for-static-content.md)
 
+[010 We-will-use-a-secure-data-solution](010-We-will-use-a-secure-data-solution.md)
+
 ------
 
 [> Home](../README.md)
