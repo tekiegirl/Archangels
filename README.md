@@ -21,7 +21,7 @@ Welcome to our entry to the O'Reilly Spring 2021 Architectural Kata. The aim of 
 
 - [Business Goals, Drivers & Requirements](1.ProblemBackground/BusinessGoalsDriversAndRequirements.md)
 - [Architecture Analysis](1.ProblemBackground/ArchitectureAnalysis.md)
-- [Actors, Actions & Significant Scenarios](1.ProblemBackground/Personas.md)
+- [Actors, Actions & Significant Scenarios](1.ProblemBackground/ActorsActionsAndSignificantScenarios.md)
 - [Constraints & Assumptions](1.ProblemBackground/ConstraintsAndAssumptions.md)
 - [Stakeholder Concerns](1.ProblemBackground/StakeholderConcerns.md)
 - [RAID Log](1.ProblemBackground/RAID.md)
@@ -42,7 +42,6 @@ Welcome to our entry to the O'Reilly Spring 2021 Architectural Kata. The aim of 
 - [Event Storming](3.ViewsAndPerspectives/EventStorming/README.md)
 - [Scenario Flow Diagrams](3.ViewsAndPerspectives/scenarios/README.md)
 - [C4 Models](3.ViewsAndPerspectives/C4Models/README.md)
-- [Infrastructure Diagrams](3.ViewsAndPerspectives/infrastructure/README.md)
 
 ## Resources
 
