@@ -30,7 +30,6 @@ Welcome to our entry to the O'Reilly Spring 2021 Architectural Kata. The aim of 
 
 - [Architecture Principles](2.SolutionBackground/ArchitecturePrinciples.md)
 - [Overall Architecture Style Analysis](2.SolutionBackground/ArchitecturePatterns.md)
-- [System Approach](2.SolutionBackground/SystemApproach.md)
 - [Data Store Solution](2.SolutionBackground/DataStore.md)
 - [Deployment](2.SolutionBackground/Deployment.md)
 - [Roadmap](2.SolutionBackground/Roadmap.md)
