@@ -12,7 +12,6 @@ The Functional View contains one diagram to show what's expected of the Farmacy 
 - [Event Storming](EventStorming/README.md)
 - [Scenario Flow Diagrams](scenarios/README.md)
 - [C4 Models](C4Models/README.md)
-- [Infrastructure Diagrams](infrastructure/README.md)
 
 
 ------
