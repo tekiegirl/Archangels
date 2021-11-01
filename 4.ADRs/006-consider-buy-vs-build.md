@@ -22,6 +22,7 @@ In all other domains required for forums, organisation of events and classes etc
 
 ## Decision
 
+COTS solution will be used for Forums. We suggest [Vanilla Forums](https://vanillaforums.com/en/). It also provides community events functionality which could provide good starting point before investing in custom solutions.
 
 
 ## Consequences

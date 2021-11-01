@@ -57,3 +57,4 @@ Welcome to our entry to the O'Reilly Spring 2021 Architectural Kata. The aim of 
 - [C4 Model](https://c4model.com/)
 - [EventStorming](https://www.eventstorming.com/)
 - [Sky flow data privacy vault via a simple API](https://www.skyflow.com/)  
+- [Vanilla for Forums and events ](https://vanillaforums.com/en/)
