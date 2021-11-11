@@ -7,13 +7,13 @@
 
 ## Identified Key Architectural Characteristics
 
-The [key architectural characteristics](../1.ProblemBackground/ArchitectureAnalysis.md) that were identified help us to select and overall architecture style. The top three are shown in bold and with a *.
+The [key architectural characteristics](../1.ProblemBackground/ArchitectureAnalysis.md) that were identified help us to select and overall architecture style. The top three are shown in bold and with a ^.
 
-- **Interoperability *** 
+- **Interoperability ^** 
 - Data Integrity
 - Scalability/Elasticity
-- **Configurability ***
-- **Authorisation ***
+- **Configurability ^**
+- **Authorisation ^**
 - Workflow
 - Fault Tolerance
 
