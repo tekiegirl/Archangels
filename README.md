@@ -1,5 +1,7 @@
 # Architectural Kata Autumn 2021 - The Archangels
 
+This documentation repository is hosted on GitHub here: https://github.com/tekiegirl/Archangels
+
 Welcome to our entry to the O'Reilly Spring 2021 Architectural Kata. The aim of this documentation repository is to communicate our design for the problem described, for a stakeholder and development team audience.
 
 <img src="assets/images/TheArchangels.png" alt="TheArchangels" style="zoom:50%;" />
@@ -42,7 +44,7 @@ Welcome to our entry to the O'Reilly Spring 2021 Architectural Kata. The aim of 
 - [Scenario Flow Diagrams](3.ViewsAndPerspectives/scenarios/README.md)
 - [C4 Models](3.ViewsAndPerspectives/C4Models/README.md)
 
-## Resources
+## Resources <a href='#' id='resources'></a>
 
 - [2021 Architecture Katas Presentation](assets/docs/2021-fall-kick-off.pdf)
 - [2021 Kata Participating Teams Info](assets/docs/participating-teams-info-katas-fall-2021.pdf)
