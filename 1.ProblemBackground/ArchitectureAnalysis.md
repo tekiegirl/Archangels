@@ -19,7 +19,7 @@ performance    responsiveness    availability    fault-tolerance    scalability/
 | ----- | ---------------------------- | ------------------------------------------------------------ |
 | Y     | Interoperability/Integration | Integration with Farmacy Foods (converting Foods transactional customers to Family engaged customers, and analytics feedback), and with dieticians and clinics. |
 |       | Data Integrity               | Generate analytical data from medical information, geographical data, etc, to demonstrate the benefits of FF, improve fridge supplies for Foods, and exchange analytical data with clinics. Must be correct as is medical data. |
-|       | Scalability/Elasticity       | Analysis domain, and some other domains like reference material / media, likely to require more resources (especially computational) at different times. |
+|       | Scalability/Elasticity       | Analytics domain, and some other domains like reference material / media, likely to require more resources (especially computational) at different times. |
 | Y     | Configurability              | Customers have fine-grained control what other customers can see on their profile, and give permissions for e.g. clinics to access their medical data. |
 | Y     | Authorisation                | Although normally an implicit architecture characteristic (see below) this is promoted here due to clinician and dietician needing authorisation from a customer user to access medical information. |
 |       | Workflow                     | Transactional Foods customers must be onboarded as engaged Family customers, with a completed profile. |
@@ -53,6 +53,12 @@ Of the characteristics identified above, do they apply to the whole system or ar
 | Messaging                                             | Email, Message, Notification, Subscription?                  | - Interoperability<br />- Workflow                           | Supportive       |
 | User Interface (Reactive Monolith)                    |                                                              | - Configurability<br />- Authorisation<br />- Fault Tolerance | Generic          |
 | Medical                                               | Test, Result                                                 | - Authorisation                                              | Core             |
+
+### Venn Diagram
+
+This diagram illustrates that although there are many shared characteristics, even those that are shared are shared by domains that do not themselves overlap. This leads us to a distributed architecture with deployment, backup and disaster recovery needing to take into account these characteristics. These characteristics may also inform further granularity of these domains.
+
+![CharacteristicsVennDiagram](../assets/diagrams/CharacteristicsVennDiagram.png)
 
 ---
 
