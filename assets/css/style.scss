@@ -1,8 +1,21 @@
 ---
 ---
 
-@import "";
+@import "{{ site.theme }}";
 
-tr, td {
+tr, td, th {
 	text-align: left;
+    	padding: 0.2em;
+}
+
+th {
+	background-color: #dddddd;
+}
+
+ul {
+	margin-left: 20px;
+}
+
+h2 {
+	margin-top: 0.8em;
 }
