@@ -1,4 +1,5 @@
 [> Home](../README.md)    [> Solution Background](README.md)
+[< Prev](ArchitecturePrinciples.md)  |  [Next >](DataStore.md)
 
 ---
 
@@ -51,3 +52,4 @@ ADR: [007 We-will-use-an-event-driven-backend-architecture](../4.ADRs/007-We-wil
 ---
 
 [> Home](../README.md)    [> Solution Background](README.md)
+[< Prev](ArchitecturePrinciples.md)  |  [Next >](DataStore.md)

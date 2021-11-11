@@ -1,4 +1,5 @@
 [> Home](../README.md)    [> Solution Background](README.md)
+[< Prev](ArchitecturePatterns.md)  |  [Next >](Deployment.md)
 
 ---
 
@@ -48,4 +49,4 @@ Without further analysis it would seem that a graph database would be optimal fo
 ---
 
 [> Home](../README.md)    [> Solution Background](README.md)
-
+[< Prev](ArchitecturePatterns.md)  |  [Next >](Deployment.md)

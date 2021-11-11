@@ -1,4 +1,5 @@
 [> Home](../../README.md)    [> Views & Perspectives](../README.md)
+[< Prev](../README.md)  |  [Next >](../EventStorming/README.md)
 
 ---
 
@@ -17,3 +18,4 @@ If we zoom into Farmacy Family box we'd have our software components. From here 
 ---
 
 [> Home](../../README.md)    [> Views & Perspectives](../README.md)
+[< Prev](../README.md)  |  [Next >](../EventStorming/README.md)

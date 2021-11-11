@@ -1,4 +1,5 @@
 [> Home](../README.md)   [> Problem Background](README.md)
+[< Prev](README.md)  |  [Next >](ArchitectureAnalysis.md)
 
 ---
 
@@ -147,4 +148,4 @@ When a transactional customer purchases a meal, Farmacy Family will generate an 
 ------
 
 [> Home](../README.md)   [> Problem Background](README.md) 
-
+[< Prev](README.md)  |  [Next >](ArchitectureAnalysis.md)

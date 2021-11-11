@@ -1,4 +1,5 @@
 [> Home](../README.md)  [> Problem Background](README.md)
+[< Prev](ArchitectureAnalysis.md)  |  [Next >](ConstraintsAndAssumptions.md)
 
 ---
 # Actors, Actions & Significant Scenarios
@@ -31,3 +32,4 @@ The identified actors of Farmacy Family and their actions are as follows.
 ------
 
 [> Home](../README.md)  [> Problem Background](README.md)
+[< Prev](ArchitectureAnalysis.md)  |  [Next >](ConstraintsAndAssumptions.md)

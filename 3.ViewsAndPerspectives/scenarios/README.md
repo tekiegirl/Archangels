@@ -1,4 +1,5 @@
 [> Home](../../README.md)    [> Views & Perspectives](../README.md)
+[< Prev](../EventStorming/README.md)  |  [Next >](../C4Models/README.md)
 
 ---
 
@@ -21,3 +22,4 @@ Scenarios key to architecture design.
 ---
 
 [> Home](../../README.md)    [> Views & Perspectives](../README.md)
+[< Prev](../EventStorming/README.md)  |  [Next >](../C4Models/README.md)

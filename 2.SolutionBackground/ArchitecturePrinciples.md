@@ -1,4 +1,5 @@
 [> Home](../README.md)    [> Solution Background](README.md)
+[< Prev](README.md)  |  [Next >](ArchitecturePatterns.md)
 
 ---
 
@@ -49,4 +50,4 @@
 ------
 
 [> Home](../README.md)    [> Solution Background](README.md)
-
+[< Prev](README.md)  |  [Next >](ArchitecturePatterns.md)
