@@ -40,19 +40,21 @@ The following are a bedrock of architecture characteristics. They may not affect
 
 Of the characteristics identified above, do they apply to the whole system or are there clear sets applying to different parts of the system?
 
+### Table View
+
 | Identified Domains                                    | Sub-domains and Considerations                               | Applicable Architectural Characteristics                     | Strategic Domain |
 | ----------------------------------------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ | ---------------- |
-| Users                                                 | Customer, Preferences, Profile (Personal & Medical), Dietician, Clinic, Administrator?, Onboarding, Integration (Farmacy Foods) | - Interoperability<br />- Configurability<br />- Authorisation<br />- Workflow | Supportive       |
-| Security                                              | Authentication, Authorisation                                | - Configurability<br />- Authorisation                       | Generic          |
+| Users                                                 | Customer, Preferences, Profile (Personal & Medical), Dietician, Clinic, Administrator?, Onboarding, Integration (Farmacy Foods) | - Interoperability (moved to Interface)<br />- Configurability<br />- Authorisation<br />- Workflow<br />- Fault-Tolerance<br />- Data-Integrity | Supportive       |
+| Security                                              | Authentication, Authorisation                                | - Authorisation<br />- Data Integrity<br />-Interoperability (moved to Interface) | Generic          |
 | Data Store                                            | Database, Interface                                          | - Data Integrity<br />- Authorisation                        | Generic          |
-| Class (localised, temporal)                           |                                                              | - Scalability/Elasticity<br />- Fault Tolerance              | Core             |
-| Event (in-person, localised, temporal)                |                                                              | Fault Tolerance                                              | Core             |
-| Forum (localised, temporal)                           |                                                              | - Configurability<br />- Authorisation<br />- Fault Tolerance | Core             |
+| Class (localised, temporal)                           |                                                              | - Configurability<br />- Fault Tolerance                     | Core             |
+| Event (in-person, localised, temporal)                |                                                              | - Configurability<br />Fault Tolerance                       | Core             |
+| Forum (localised, temporal)                           |                                                              | - Configurability<br />- Fault Tolerance                     | Core             |
 | Reference Material / Media (global, reference/static) | Media Library, General Wellness                              | - Scalability/Elasticity                                     | Generic          |
-| Analytics (geographical trend analysis)               | Geographical, Engagement?, Integration (Farmacy Foods), Reporting | - Interoperability,<br />- Data Integrity<br />- Scalability/Elasticity | Core             |
-| Messaging                                             | Email, Message, Notification, Subscription?                  | - Interoperability<br />- Workflow                           | Supportive       |
-| User Interface (Reactive Monolith)                    |                                                              | - Configurability<br />- Authorisation<br />- Fault Tolerance | Generic          |
-| Medical                                               | Test, Result                                                 | - Authorisation                                              | Core             |
+| Analytics (geographical trend analysis)               | Geographical, Engagement?, Integration (Farmacy Foods), Reporting | - Fault Tolerance,<br />- Configurability<br />- Scalability/Elasticity<br />- Authorisation<br />-Data-Integrity | Core             |
+| Messaging                                             | Email, Message, Notification, Subscription?                  | - Workflow                                                   | Supportive       |
+| Medical                                               | Test, Result                                                 | - Authorisation<br />- Data-Integrity                        | Core             |
+| Interface                                             |                                                              | - Interoperability<br />- Authorisation<br />- Data-Integrity | Supportive       |
 
 ### Venn Diagram
 
@@ -68,14 +70,14 @@ A breakdown of the key granularity analysis and links to ADRs.
 
 ### Users
 
-| Functionality | Volatility | Scalability             | Fault Tolerance                | Data Security | Data Transactions | Data Dependencies | Workflow |
-| ------------- | ---------- | ----------------------- | ------------------------------ | ------------- | ----------------- | ----------------- | -------- |
-| Customer      | Low        | Unlikely to be required | Split required                 | High          |                   |                   |          |
-| Dietician     | Low        | Unlikely to be required | Could be merged with Clinic    | Med           |                   |                   |          |
-| Clinic        | Low        | Unlikely to be required | Could be merged with Dietician | Med           |                   |                   |          |
-| Administrator | Low        | Unlikely to be required | Split required                 | High          |                   |                   |          |
+| Functionality | Volatility | Scalability             | Fault Tolerance                | Data Security | Data Transactions              | Data Dependencies            | Workflow             |
+| ------------- | ---------- | ----------------------- | ------------------------------ | ------------- | ------------------------------ | ---------------------------- | -------------------- |
+| Customer      | Low        | Unlikely to be required | Split required                 | High          | Profile, Onboarding, Message   | Security, Messages           | Separate             |
+| Dietician     | Low        | Unlikely to be required | Could be merged with Clinic    | High          | Dietician, Message             | Profile, Messages            | Similar to Clinic    |
+| Clinic        | Low        | Unlikely to be required | Could be merged with Dietician | High          | Clinic, Message                | Dietician, Messages, Profile | Similar to Dietician |
+| Administrator | Low        | Unlikely to be required | Split required                 | High          | Manage users, manage community | (all above)                  | Separate             |
 
-[ADR: ...]()
+[ADR: We-will-separate-the-user-domain](../4.ADRs/011-We-will-separate-the-user-domain.md)
 
 ### Security
 
@@ -84,23 +86,23 @@ A breakdown of the key granularity analysis and links to ADRs.
 | Authentication | Low        | Unlikely to be required | Don't want one without the other, could be merged with Authorisation | High          | User email/username, User password (hashed/salted)   | User              | Separate |
 | Authorisation  | Low        | Unlikely to be required | Don't want one without the other, could be merged with Authentication | High          | User Roles / Permissions, User authentication status | User              | Separate |
 
-[ADR: ...]()
+[ADR: Combine Authentication and Authorisation into one Security Domain](../4.ADRs/012-We-will-combine-authentication-and-athorisation.md)
 
 ### Community
 
 | Functionality    | Volatility | Scalability  | Fault Tolerance                                              | Data Security | Data Transactions | Data Dependencies | Workflow                              |
 | ---------------- | ---------- | ------------ | ------------------------------------------------------------ | ------------- | ----------------- | ----------------- | ------------------------------------- |
-| Administer Forum | Medium     | Low usage    | Split required from customer functionality                   | High          |                   | Forum             | Similar to Administer Event and Class |
-| Access Forum     | Low        | Medium usage | Split required from admin functionality, could be merged with Write | Low           |                   | Forum             | Similar to Access Event and Class     |
-| Write to Forum   | Low        | Medium usage | Split required from admin functionality, could be merged with Access | Low           |                   | Forum             | Similar to Write to Event and Class   |
-| Administer Event | Medium     | Low usage    | Split required from customer functionality                   | High          |                   | Event             | Similar to Administer Forum and Class |
-| Access Event     | Low        | Medium usage | Split required from admin functionality, could be merged with RSVP | Low           |                   | Event             | Similar to Access Forum and Class     |
-| RSVP to Event    | Low        | Medium usage | Split required from admin functionality, could be merged with Access | Low           |                   | Event             | Similar to Write to Forum and Class   |
-| Administer Class | Medium     | Low usage    | Split required from customer functionality                   | High          |                   | Class             | Similar to Administer Event and Forum |
-| Access Class     | Low        | Medium usage | Split required from admin functionality, could be merged with Take | Low           |                   | Class             | Similar to Access Event and Forum     |
-| Take Class       | Low        | Medium usage | Split required from admin functionality, could be merged with Access | Low           |                   | Class             | Similar to Write to Event and Forum   |
+| Administer Forum | Medium     | Low usage    | Split required from customer functionality                   | High          | Forum             | Forum, Admin      | Similar to Administer Event and Class |
+| Access Forum     | Low        | Medium usage | Split required from admin functionality, could be merged with Write | Low           | Forum             | Forum, Customer   | Similar to Access Event and Class     |
+| Write to Forum   | Low        | Medium usage | Split required from admin functionality, could be merged with Access | Low           | Forum             | Forum, Customer   | Similar to Write to Event and Class   |
+| Administer Event | Medium     | Low usage    | Split required from customer functionality                   | High          | Event             | Event, Admin      | Similar to Administer Forum and Class |
+| Access Event     | Low        | Medium usage | Split required from admin functionality, could be merged with RSVP | Low           | Event             | Event, Customer   | Similar to Access Forum and Class     |
+| RSVP to Event    | Low        | Medium usage | Split required from admin functionality, could be merged with Access | Low           | Event             | Event, Customer   | Similar to Write to Forum and Class   |
+| Administer Class | Medium     | Low usage    | Split required from customer functionality                   | High          | Class             | Class, Admin      | Similar to Administer Event and Forum |
+| Access Class     | Low        | Medium usage | Split required from admin functionality, could be merged with Take | Low           | Class             | Class, Customer   | Similar to Access Event and Forum     |
+| Take Class       | Low        | Medium usage | Split required from admin functionality, could be merged with Access | Low           | Class             | Class, Customer   | Similar to Write to Event and Forum   |
 
-[ADR: ...]()
+[ADR: Community will be split into admin and customer functionality and provide an interface to classes, forums and events](../4.ADRs/013-We-will-split-community-domain.md)
 
 ### Reference Material / Media 
 
