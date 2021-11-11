@@ -1,10 +1,11 @@
 [> Home](../../README.md)    [> Views & Perspectives](../README.md)
+[< Prev](../FunctionalView/README.md)  |  [Next >](../scenarios/README.md)
 
 ---
 
-# EventStorming
+# Event Storming
 
-EventStorming as described at the [source](https://www.eventstorming.com/)
+Event Storming as described at the [source](https://www.eventstorming.com/)
 '*is a flexible workshop format for collaborative exploration of complex business domains*'.
 
 It is used in many scenarios of which the following are of interest to us.
@@ -26,35 +27,36 @@ It is enough to keep the following in mind to understand these diagrams
 3. The yellow boxes represent Users.
 4. The colored boxes are placed on a time line. 
 
-# The Key
+## The Key
 
 ![EventStorming Colors](../../assets/diagrams/EventStormingColors.png)
 
 The requirement numbers used here match those used in [Business Goals and Requirements](../../1.ProblemBackground/BusinessGoalsRequirements.md)
 
 
-# Requirements #1, #6, and #7 : Customer Profile, Medical Profile, Profile Customization
+## Requirements #1, #6, and #7 : Customer Profile, Medical Profile, Profile Customization
 
 ![Req #1, #6, #7](../../assets/diagrams/01CustomerProfile.png)
 
-# Requirement #2 
+## Requirement #2 
 
 ![Req #2](../../assets/diagrams/02GeographicalTrendAnalysis.png)
 
-# Requirement #4
+## Requirement #4
 
 ![Req #4](../../assets/diagrams/04DieticianAdviceAndInteraction.png)
 
-# Requirement #8
+## Requirement #8
 ![Req #8](../../assets/diagrams/08ThirdPartyRelationships.png)
 
 
-# Requirement #9
+## Requirement #9
 ![Req #9](../../assets/diagrams/09HolisticUX.png)
 
-# Requirement #10
+## Requirement #10
 ![Req #10](../../assets/diagrams/10CustomerEngagement.png)
 
 ---
 
 [> Home](../../README.md)    [> Views & Perspectives](../README.md)
+[< Prev](../FunctionalView/README.md)  |  [Next >](../scenarios/README.md)
