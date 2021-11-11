@@ -1,17 +1,40 @@
 [> Home](../README.md)
+[< Prev](../1.ProblemBackground/RAID.md)  |  [Next >](ArchitecturePrinciples.md)
 
 ---
 
 # Solution Background
 
-* [Architecture Principles](ArchitecturePrinciples.md)
-* [Overall Architecture Style Analysis](ArchitecturePatterns.md)
-* [Data Store Solution](DataStore.md)
-* [Deployment](Deployment.md)
-* [Roadmap](Roadmap.md)
-* [ADRs](../4.ADRs/README.md)
+[Architecture Principles](ArchitecturePrinciples.md)
+
+* General Architecture Principles
+* Automation
+* Data
+* Integration
+* Security
+* Extendibility & Maintainability
+
+[Overall Architecture Style Analysis](ArchitecturePatterns.md)
+
+- Identified Key Architectural Characteristics
+- Architecture Capabilities Comparison
+- Architecture Capabilities Analysis
+- Conclusion
+
+[Data Store Solution](DataStore.md)
+
+- Considered Data Store Approaches
+- Next Steps
+
+[Deployment](Deployment.md)
+
+* Infrastructure
+
+[Roadmap](Roadmap.md)
+
+[ADRs](../4.ADRs/README.md)
 
 ------
 
 [> Home](../README.md)
-
+[< Prev](../1.ProblemBackground/RAID.md)  |  [Next >](ArchitecturePrinciples.md)
