@@ -1,0 +1,592 @@
+{
+  "nodes": [
+    {
+      "id": "n0",
+      "position": {
+        "x": -73.16945003000524,
+        "y": 80.40881399358744
+      },
+      "caption": "",
+      "labels": [
+        "Customer"
+      ],
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n1",
+      "position": {
+        "x": 110.01402925117144,
+        "y": 557.8809943995246
+      },
+      "caption": "",
+      "labels": [
+        "Test"
+      ],
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n2",
+      "position": {
+        "x": 250.9022998677408,
+        "y": 313.85535150111315
+      },
+      "caption": "",
+      "labels": [
+        "Result"
+      ],
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n4",
+      "position": {
+        "x": 736.1727851382549,
+        "y": 152.64179898614378
+      },
+      "caption": "",
+      "labels": [
+        "Clinic"
+      ],
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n5",
+      "position": {
+        "x": 740.081662786113,
+        "y": -385.40574636184476
+      },
+      "caption": "",
+      "labels": [
+        "Dietician"
+      ],
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n6",
+      "position": {
+        "x": -280.64814307937854,
+        "y": 242.62404092667637
+      },
+      "caption": "",
+      "labels": [
+        "Locale"
+      ],
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n8",
+      "position": {
+        "x": -488.12683033997524,
+        "y": 404.83927526380376
+      },
+      "caption": "",
+      "labels": [
+        "Fridge"
+      ],
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n9",
+      "position": {
+        "x": 35.840969032757684,
+        "y": -303.8261577252823
+      },
+      "caption": "",
+      "labels": [
+        "Profile"
+      ],
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n10",
+      "position": {
+        "x": 77.30289548627854,
+        "y": 296.5552022429813
+      },
+      "caption": "",
+      "labels": [
+        "Dietary-Need"
+      ],
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n11",
+      "position": {
+        "x": -73.16945003000524,
+        "y": 343.77393681441504
+      },
+      "caption": "",
+      "labels": [
+        "Medical-Need"
+      ],
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n12",
+      "position": {
+        "x": -528.1645749657993,
+        "y": 152.64179898614378
+      },
+      "caption": "",
+      "labels": [
+        "Forum"
+      ],
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n13",
+      "position": {
+        "x": -449.1418038461539,
+        "y": -136.65892569002318
+      },
+      "caption": "",
+      "labels": [
+        "Board"
+      ],
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n14",
+      "position": {
+        "x": -144.43617443984192,
+        "y": -312.5808028513519
+      },
+      "caption": "",
+      "labels": [
+        "Post"
+      ],
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n15",
+      "position": {
+        "x": -237.17292876033892,
+        "y": 502.3760258244692
+      },
+      "caption": "",
+      "labels": [
+        "Event"
+      ],
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n16",
+      "position": {
+        "x": -366.10215421624514,
+        "y": -6.4919960903127105
+      },
+      "caption": "",
+      "labels": [
+        "Class"
+      ],
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n17",
+      "position": {
+        "x": 379.5484189524099,
+        "y": 80.40881399358744
+      },
+      "caption": "",
+      "labels": [
+        "Message"
+      ],
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n18",
+      "position": {
+        "x": 288.2639752968386,
+        "y": -89.549016107131
+      },
+      "caption": "",
+      "labels": [
+        "Media"
+      ],
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n19",
+      "position": {
+        "x": 185.30303600289815,
+        "y": -224.0772430271083
+      },
+      "caption": "",
+      "labels": [
+        "Foods-Customer"
+      ],
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n20",
+      "position": {
+        "x": 557.4305015570352,
+        "y": 193.92238804967653
+      },
+      "caption": "",
+      "labels": [
+        "Result"
+      ],
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n21",
+      "position": {
+        "x": -449.1418038461539,
+        "y": -385.4057463618446
+      },
+      "caption": "",
+      "labels": [
+        "Post"
+      ],
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n22",
+      "position": {
+        "x": 569.2686999319916,
+        "y": -89.549016107131
+      },
+      "caption": "",
+      "labels": [
+        "Message"
+      ],
+      "properties": {},
+      "style": {}
+    }
+  ],
+  "relationships": [
+    {
+      "id": "n0",
+      "fromId": "n2",
+      "toId": "n1",
+      "type": "RESULT_OF",
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n1",
+      "fromId": "n0",
+      "toId": "n2",
+      "type": "HAS_RESULT",
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n3",
+      "fromId": "n5",
+      "toId": "n4",
+      "type": "WORKS_FOR",
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n4",
+      "fromId": "n4",
+      "toId": "n1",
+      "type": "RUNS",
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n5",
+      "fromId": "n0",
+      "toId": "n6",
+      "type": "LIVES_IN",
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n7",
+      "fromId": "n8",
+      "toId": "n6",
+      "type": "LOCATED_IN",
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n8",
+      "fromId": "n0",
+      "toId": "n9",
+      "type": "HAS_PROFILE",
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n9",
+      "fromId": "n1",
+      "toId": "n10",
+      "type": "RELATES_TO",
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n10",
+      "fromId": "n0",
+      "toId": "n10",
+      "type": "HAS_NEED",
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n11",
+      "fromId": "n1",
+      "toId": "n11",
+      "type": "RELATES_TO",
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n12",
+      "fromId": "n0",
+      "toId": "n11",
+      "type": "HAS_NEED",
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n13",
+      "fromId": "n13",
+      "toId": "n12",
+      "type": "PART_OF",
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n14",
+      "fromId": "n0",
+      "toId": "n13",
+      "type": "SUBSCRIBES_TO",
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n15",
+      "fromId": "n14",
+      "toId": "n13",
+      "type": "PART_OF",
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n16",
+      "fromId": "n0",
+      "toId": "n14",
+      "type": "POSTED",
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n17",
+      "fromId": "n15",
+      "toId": "n6",
+      "type": "LOCATED_IN",
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n18",
+      "fromId": "n16",
+      "toId": "n6",
+      "type": "LOCATED_IN",
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n19",
+      "fromId": "n17",
+      "toId": "n0",
+      "type": "MESSAGE_FROM",
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n20",
+      "fromId": "n17",
+      "toId": "n4",
+      "type": "MESSAGE_TO",
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n21",
+      "fromId": "n0",
+      "toId": "n16",
+      "type": "ATTENDING",
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n22",
+      "fromId": "n0",
+      "toId": "n15",
+      "type": "DECLINED",
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n23",
+      "fromId": "n0",
+      "toId": "n18",
+      "type": "ACCESSED",
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n24",
+      "fromId": "n0",
+      "toId": "n19",
+      "type": "LINKED_TO",
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n26",
+      "fromId": "n20",
+      "toId": "n1",
+      "type": "RESULT_OF",
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n27",
+      "fromId": "n0",
+      "toId": "n20",
+      "type": "HAS_RESULT",
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n28",
+      "fromId": "n2",
+      "toId": "n20",
+      "type": "PREVIOUS_RESULT",
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n29",
+      "fromId": "n12",
+      "toId": "n6",
+      "type": "LOCATED_IN",
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n30",
+      "fromId": "n21",
+      "toId": "n13",
+      "type": "PART_OF",
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n31",
+      "fromId": "n14",
+      "toId": "n21",
+      "type": "PREVIOUS_POST",
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n34",
+      "fromId": "n22",
+      "toId": "n5",
+      "type": "MESSAGE_FROM",
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n35",
+      "fromId": "n22",
+      "toId": "n0",
+      "type": "MESSAGE_TO",
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n36",
+      "fromId": "n22",
+      "toId": "n17",
+      "type": "REPLY_TO",
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n37",
+      "fromId": "n22",
+      "toId": "n4",
+      "type": "MESSAGE_FROM",
+      "properties": {},
+      "style": {}
+    }
+  ],
+  "style": {
+    "node-color": "#ffffff",
+    "border-width": 4,
+    "border-color": "#000000",
+    "radius": 50,
+    "node-padding": 5,
+    "node-margin": 2,
+    "outside-position": "auto",
+    "node-icon-image": "",
+    "node-background-image": "",
+    "icon-position": "inside",
+    "icon-size": 64,
+    "caption-position": "inside",
+    "caption-max-width": 200,
+    "caption-color": "#000000",
+    "caption-font-size": 50,
+    "caption-font-weight": "normal",
+    "label-position": "inside",
+    "label-display": "pill",
+    "label-color": "#000000",
+    "label-background-color": "#ffffff",
+    "label-border-color": "#000000",
+    "label-border-width": 4,
+    "label-font-size": 40,
+    "label-padding": 5,
+    "label-margin": 4,
+    "directionality": "directed",
+    "detail-position": "inline",
+    "detail-orientation": "parallel",
+    "arrow-width": 5,
+    "arrow-color": "#000000",
+    "margin-start": 5,
+    "margin-end": 5,
+    "margin-peer": 20,
+    "attachment-start": "normal",
+    "attachment-end": "normal",
+    "relationship-icon-image": "",
+    "type-color": "#000000",
+    "type-background-color": "#ffffff",
+    "type-border-color": "#000000",
+    "type-border-width": 0,
+    "type-font-size": 16,
+    "type-padding": 5,
+    "property-position": "outside",
+    "property-alignment": "colon",
+    "property-color": "#000000",
+    "property-font-size": 16,
+    "property-font-weight": "normal"
+  }
+}
