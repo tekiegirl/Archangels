@@ -10,7 +10,7 @@ Confirmed
 
 ## Context
 
-Analysis of the architecture characteristics required of the system and the possible architecture styles concluded that an event-driven architecture would suit the system, with less trade-offs than other options.
+[Analysis of the architecture characteristics](../2.SolutionBackground/ArchitecturePatterns.md) required of the system and the possible architecture styles concluded that an event-driven architecture would suit the system, with less trade-offs than other options.
 
 ## Decision
 
