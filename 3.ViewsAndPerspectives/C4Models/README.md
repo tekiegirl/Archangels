@@ -31,7 +31,7 @@ A Container diagram zooms into the software system in scope, showing the high-le
 A **Component** diagram zooms into an individual container, showing the components inside it.[^](#expl)
 The following diagrams break down the containers/functionality shown above further, into components which represent individually deployable services.
 
-#### Relevant ADRs
+### Relevant ADRs
 
 - [003 component-communication](../../4.ADRs/003-component-communication.md)
 - [004 use-inbox-outbox-pattern](../../4.ADRs/004-use-inbox-outbox-pattern.md)
@@ -44,6 +44,7 @@ The following diagram shows the individually deployable services in the Medical 
 
 - [005 use-crypto-shredding](../../4.ADRs/005-use-crypto-shredding.md)
 - [010 We-will-use-a-secure-data-solution](../../4.ADRs/010-We-will-use-a-secure-data-solution.md)
+- [017 Separate the Medical domain](017-We-will-split-medical-domain.md)
 
 ![Medical Component Diagram](../../assets/diagrams/MedicalComponentDiagram.png)
 
@@ -52,11 +53,12 @@ The following diagram shows the individually deployable services in the Medical 
 
 The following diagram shows the individually deployable services in the User Management domain, and how they interact with each other, users and other domains.
 
-![User Component Diagram](../../assets/diagrams/UserComponentDiagram.png)
-
 #### Relevant ADRs
 
-- 
+- [011 Separate the User domain](../../4.ADRs/011-We-will-separate-the-user-domain.md)
+- [019 Use Authentication and Authorisation for human-system integration](019-use-auth-for-human-system-integration.md)
+
+![User Component Diagram](../../assets/diagrams/UserComponentDiagram.png)
 
 
 ## Next Steps
