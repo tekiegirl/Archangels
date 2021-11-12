@@ -108,63 +108,69 @@ A breakdown of the key granularity analysis and links to ADRs.
 
 | Functionality        | Volatility | Scalability  | Fault Tolerance                            | Data Security | Data Transactions | Data Dependencies | Workflow          |
 | -------------------- | ---------- | ------------ | ------------------------------------------ | ------------- | ----------------- | ----------------- | ----------------- |
-| Administer Media     | Medium     | Low usage    | Split required from customer functionality | Medium        | Media             | Media             | Separate          |
-| View Available Media | Low        | Medium usage | Split required from admin functionality    | Low           | Media             | Media             | Similar to Access |
-| Access Media         | Medium     | Medium usage | Split required from admin functionality    | Low           | Media             | Media             | Similar to View   |
+| Administer Media     | Medium     | Low usage    | Split required from customer functionality | Medium        | Media             | Media, Admin      | Separate          |
+| View Available Media | Low        | Medium usage | Split required from admin functionality    | Low           | Media             | Media, Customer   | Similar to Access |
+| Access Media         | Low        | Medium usage | Split required from admin functionality    | Low           | Media             | Media, Customer   | Similar to View   |
 
-[ADR: ...]()
+[ADR: Media will be split into Media Administration and Media Access](../4.ADRs/014-We-will-split-media-domain.md)
 
 ### Analytics 
 
-| Functionality                      | Volatility | Scalability | Fault Tolerance | Data Security | Data Transactions | Data Dependencies  | Workflow |
-| ---------------------------------- | ---------- | ----------- | --------------- | ------------- | ----------------- | ------------------ | -------- |
-| Run medical-geographical analysis  | High       | Required    | Not required    | High          |                   | User               | Separate |
-| Run engagement-customer analysis   | High       | Required    | Not required    | Medium        |                   | User               | Separate |
-| Run medical-user-wellness analysis | High       | Required    | Not required    | High          |                   | User, Test, Result | Separate |
+| Functionality                  | Volatility | Scalability | Fault Tolerance                         | Data Security | Data Transactions  | Data Dependencies | Workflow |
+| ------------------------------ | ---------- | ----------- | --------------------------------------- | ------------- | ------------------ | ----------------- | -------- |
+| Run Analytics                  | High       | Required    | Should be split from Admin              | High          | MANY               | MANY              | Separate |
+| Administer/Create Analytics    | High       | Required    | Should be split from Run & Store/Access | Medium        | Analytics Settings | MANY              | Separate |
+| Store/Access Analytics Results | High       | Required    | Should be split from Admin              | High          | Analytics Storage  | Analytics Storage | Separate |
 
-[ADR: ...]()
+[ADR: Analytics will be split into Administration, Run and Store/Access](../4.ADRs/015-We-will-split-analytics-domain.md)
 
 ### Messaging
 
 | Functionality             | Volatility | Scalability  | Fault Tolerance                                   | Data Security | Data Transactions                                            | Data Dependencies                         | Workflow |
 | ------------------------- | ---------- | ------------ | ------------------------------------------------- | ------------- | ------------------------------------------------------------ | ----------------------------------------- | -------- |
-| Create Notification       | Low        | Medium usage | Split required from Subscription                  | Low           | Notification (inc. status), Message status, Subscription event | User, Subscription, Message, Notification | Separate |
-| Send Message              | Low        | Low usage    | Split required from Subscription                  | High          | User Id, Message, Message Id                                 | User (Customer, Dietician), Message       | Separate |
-| Send Email                | Low        | Medium usage | Split required from Subscription                  | Medium        | User email address                                           | User                                      | Separate |
-| Subscription (add/remove) | Medium     | Medium usage | Split required from Notification, Message & Email | Low           | User Id, Forum/Event/Class Id, Subscription                  | User, Forum, Event, Class, Subscription   | Separate |
+| Notification              | Low        | Medium usage | Split required from Subscription                  | Low           | Notification (inc. status), Message status, Subscription event | User, Subscription, Message, Notification | Separate |
+| Message                   | Low        | Medium usage | Split required from Subscription                  | High          | User Id, Message, Message Id                                 | User (Customer, Dietician), Message       | Separate |
+| Email                     | Low        | Medium usage | Split required from Subscription                  | Medium        | User email address                                           | User                                      | Separate |
+| Subscription (add/remove) | Medium     | Low usage    | Split required from Notification, Message & Email | Low           | User Id, Forum/Event/Class Id, Subscription                  | User, Forum, Event, Class, Subscription   | Separate |
 
-[ADR: ...]()
+[ADR: Messaging will be split into Subscription, Message, Notification and Email](../4.ADRs/016-We-will-split-messaging-domain.md)
 
 ### Medical
 
-| Functionality         | Volatility | Scalability  | Fault Tolerance              | Data Security | Data Transactions     | Data Dependencies  | Workflow                |
-| --------------------- | ---------- | ------------ | ---------------------------- | ------------- | --------------------- | ------------------ | ----------------------- |
-| Test Administration   | Medium     | Medium usage | Split required from customer | Medium        | Test                  | Test               | Separate                |
-| Result Administration | Medium     | Medium usage | Split required from customer | High          | Test, User Id, Result | Test, Result, User | Similar to Add/Update   |
-| Add/Update Result     | Medium     | Medium usage | Split required from admin    | High          | Test, User Id, Result | Test, Result, User | Similar to Result Admin |
+| Functionality          | Volatility | Scalability  | Fault Tolerance              | Data Security | Data Transactions     | Data Dependencies              | Workflow       |
+| ---------------------- | ---------- | ------------ | ---------------------------- | ------------- | --------------------- | ------------------------------ | -------------- |
+| Medical Administration | Medium     | Medium usage | Split required from customer | High          | Test, Result          | Test, Result, Clinic, Customer | Result overlap |
+| Add/Update Result      | Medium     | Medium usage | Split required from admin    | High          | Test, User Id, Result | Test, Result, User             | Result overlap |
 
-[ADR: ...]()
+[ADR: Medical will be split into Admin and Customer](../4.ADRs/017-We-will-split-medical-domain.md)
 
 ### Data Store
 
-See [Datastore Solution Overview](../2.SolutionBackground/datastore/README.md).
+See [Datastore Solution Overview](../2.SolutionBackground/DataStore.md).
 
 ---
 
 ## Integration points for Farmacy Family
 
-| System        | Direction           | Elements         | Reasoning                                                    |
-| ------------- | ------------------- | ---------------- | ------------------------------------------------------------ |
-| Farmacy Foods | 2-way               | Customer         | So that Farmacy Foods can identify transactional customers who have not become Engaged customers of Farmacy Family in order to retry engagement. |
-| Farmacy Foods | Family to Foods     | Analytics        | Optimise the content of geographically located smart fridges (medical data linked to geographical location), optimise engagement programme for transactional customers (onboarding analytics to inform the engagement programme for transactional customers of Farmacy Foods) |
-| Dietician     | Family to Dietician | Customer Profile | Dieticians can be given permission to access customer medical information in the customer profile (inherit permission from an associated clinic) |
-| Dietician     | 2-way               | Message          | Dieticians and customers can message each other              |
-| Clinic        | Family to Clinic    | Customer Profile | Clinics can be given permission to access customer medical information in the customer profile |
-| Clinic        | 2-way               | Message          | Clinics and customers can message each other                 |
+| System        | Direction           | Elements         | Reasoning                                                    | Managed Through                                              |
+| ------------- | ------------------- | ---------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
+| Farmacy Foods | 2-way               | Customer         | So that Farmacy Foods can identify transactional customers who have not become Engaged customers of Farmacy Family in order to retry engagement. | Interface, Authentication, Authorisation                     |
+| Farmacy Foods | Family to Foods     | Analytics        | Optimise the content of geographically located smart fridges (medical data linked to geographical location), optimise engagement programme for transactional customers (onboarding analytics to inform the engagement programme for transactional customers of Farmacy Foods) | Interface, Authentication, Authorisation                     |
+| Dietician     | Family to Dietician | Customer Profile | Dieticians can be given permission to access customer medical information in the customer profile (inherit permission from an associated clinic) | User (Dietician linked to Clinic), Authentication, Authorisation |
+| Dietician     | 2-way               | Message          | Dieticians and customers can message each other              | User (Dietician), Authentication, Authorisation              |
+| Clinic        | Family to Clinic    | Customer Profile | Clinics can be given permission to access customer medical information in the customer profile | User (Dietician linked to Clinic), Authentication, Authorisation |
+| Clinic        | 2-way               | Message          | Clinics and customers can message each other                 | User (Dietician linked to Clinic), Authentication, Authorisation |
+| Clinic        | Family to Clinic    | Analytics        | Clinics can be given permission to access results of Farmacy Family Analytics | User (Dietician linked to Clinic), Authentication, Authorisation |
+| Clinic        | Clinic to Family    | Data             | Clinics can provide data for Farmacy Family to run analytics on. | API/Automatic: Interface, Manual entry/upload: User (Dietician linked to Clinic), Authentication, Authorisation |
+
+[ADR: An Interface will be used for system-system integration](../4.ADRs/018-use-interface-for-system-system-integration.md)
+
+[ADR: Authentication and Authorisation of users will be used for human-system integration](../4.ADRs/019-use-auth-for-human-system-integration.md)
 
 Next Steps:
 
-- [ ] Make decisions and record in ADRs about system granularity.
+- [x] Make decisions and record in ADRs about system granularity.
+- [ ] Create diagrams of the granularity decided above.
 
 ---
 
