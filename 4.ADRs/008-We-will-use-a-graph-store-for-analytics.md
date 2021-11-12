@@ -1,5 +1,7 @@
 [> Home](../README.md)    [> ADRs](README.md)
 
+---
+
 # Use a graph data store for analytics
 
 Date: 2021-10-28
@@ -29,5 +31,7 @@ Use a graph data store for analytics data.
 **Bonus Features:**
 
 - Can model the database exactly how things are in the real world, with no joins or trying to fit data into a relational format
+
+---
 
 [> Home](../README.md)    [> ADRs](README.md)

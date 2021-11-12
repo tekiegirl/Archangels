@@ -1,5 +1,7 @@
 [> Home](../README.md)    [> ADRs](README.md)
 
+---
+
 # Record architecture decisions
 
 Date: 2021-10-21
@@ -35,5 +37,7 @@ Architecture Decision Records, [as described by Michael Nygard](http://thinkrele
 **Bonus Features:**
 
 - This format will be something we use in other projects to improve architecture decisions governance!
+
+---
 
 [> Home](../README.md)    [> ADRs](README.md)

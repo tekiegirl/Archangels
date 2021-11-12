@@ -1,5 +1,7 @@
 [> Home](../README.md)    [> ADRs](README.md)
 
+---
+
 # Use Crypto Shredding
 
 Date: 2021-10-21
@@ -39,5 +41,7 @@ Once all backups of the keystore or data have been removed the data will become 
 **Bonus Features:**
 
 - Adds another layer of security
+
+---
 
 [> Home](../README.md)    [> ADRs](README.md)

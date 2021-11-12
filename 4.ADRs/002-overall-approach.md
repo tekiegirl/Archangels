@@ -1,5 +1,7 @@
 [> Home](../README.md)    [> ADRs](README.md)
 
+---
+
 # Record architecture decisions
 
 Date: 2021-10-21
@@ -36,5 +38,7 @@ TODO
 **Bonus Features:**
 
 TODO
+
+---
 
 [> Home](../README.md)    [> ADRs](README.md)

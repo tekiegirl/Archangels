@@ -1,5 +1,7 @@
 [> Home](../README.md)    [> ADRs](README.md)
 
+---
+
 # Use and event-driven architecture
 
 Date: 2021-10-27
@@ -30,8 +32,6 @@ Use an event-driven architecture for the backend of the system.
 
 - Interoperability and configurability may still be high trade-offs after mitigation.
 
-**Bonus Features:**
-
-- 
+---
 
 [> Home](../README.md)    [> ADRs](README.md)

@@ -1,5 +1,7 @@
 [> Home](../README.md)    [> ADRs](README.md)
 
+---
+
 # Separate Users into Customer, Administrator & Medical
 
 Date: 2021-11-11
@@ -26,5 +28,7 @@ The User domain will be split into Customer, Administrator & Medical, with Clini
   **Risks:**
 
   - Clinic and Dietician users will have some differences, which will need to be taken into account in code structure, with a Clinic being a Medical Admin role.
+
+---
 
 [> Home](../README.md)    [> ADRs](README.md)

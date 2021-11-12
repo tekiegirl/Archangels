@@ -1,5 +1,7 @@
 [> Home](../README.md)    [> ADRs](README.md)
 
+---
+
 # Combine Authentication and Authorisation into one Security Domain
 
 Date: 2021-11-11
@@ -27,5 +29,7 @@ The Security domain will not be split.
 
   - There are different workflows, but these can be handled by orchestrators.
   - If the domain gets large it will be a bottleneck for deployment.
+
+---
 
 [> Home](../README.md)    [> ADRs](README.md)

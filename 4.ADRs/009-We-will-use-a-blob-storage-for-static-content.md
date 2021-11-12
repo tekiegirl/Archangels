@@ -1,5 +1,7 @@
 [> Home](../README.md)    [> ADRs](README.md)
 
+---
+
 # Use blob storage for static content
 
 Date: 2021-10-29
@@ -26,5 +28,7 @@ Use a blob storage for larger and static data, e.g. videos and images. For Amazo
 **Risks:**
 
 - Storing data in different ways in the system means the technical team need to have wider knowledge, but the knowledge should already be there from Farmacy Foods being implemented first.
+
+---
 
 [> Home](../README.md)    [> ADRs](README.md)

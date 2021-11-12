@@ -1,5 +1,7 @@
 [> Home](../README.md)    [> ADRs](README.md)
 
+---
+
 # Consider Buy Vs Build
 
 Date: 2021-10-27
@@ -31,8 +33,6 @@ COTS solution will be used for Forums. We suggest [Vanilla Forums](https://vanil
 
 - Make efficient use of limited resources
 
-
-
 **Negative:**
 
 - Integrating with off-the-shelf or open source products can be a challenge.
@@ -44,5 +44,7 @@ COTS solution will be used for Forums. We suggest [Vanilla Forums](https://vanil
 **Bonus Features:**
 
 - Opportunity to become market leader with limited resources.
+
+---
 
 [> Home](../README.md)    [> ADRs](README.md)

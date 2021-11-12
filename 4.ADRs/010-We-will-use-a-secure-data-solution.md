@@ -1,5 +1,7 @@
 [> Home](../README.md)    [> ADRs](README.md)
 
+---
+
 # Use Secure data solution to secure medical records
 
 Date: 2021-10-29
@@ -25,6 +27,7 @@ Use a standard solution to store medical data. We suggest considering [Skyflow](
 **Risks:**
 
 - Evaluating the right security solution  considering multiple vendors may be time consuming.
-  
+
+---
 
 [> Home](../README.md)    [> ADRs](README.md)

@@ -1,5 +1,7 @@
 [> Home](../README.md)    [> ADRs](README.md)
 
+---
+
 # Use Domain Events as the primary mechanism of communication
 
 Date: 2021-10-21
@@ -38,5 +40,7 @@ Events should be constructed using the [[Cloud Events](https://cloudevents.io)] 
 **Risks:**
 
 * could be a new pattern for some developers
+
+---
 
 [> Home](../README.md)    [> ADRs](README.md)
