@@ -30,6 +30,10 @@ The Functional View contains one diagram to show what's expected of the Farmacy 
 - Component Diagrams (Level 3)
 - Next Steps
 
+[Communication View](CommunicationView/README.md)
+
+- Communication Diagram
+
 
 ------
 
