@@ -1,5 +1,5 @@
 [> Home](../../README.md)    [> Views & Perspectives](../README.md)
-[< Prev](../README.md)  |  [Next >](../EventStorming/README.md)
+[< Prev](../C4Models/README.md)  |  [Next >](../../README.md#resources)
 
 ---
 
@@ -25,4 +25,4 @@ As a result of this we should use cloud events. See [ADR003- Component Communica
   * Events such as wastage events can be used by the analytics component to further the effectiveness of fridge content placement and decrease wastage
 
 [> Home](../../README.md)    [> Views & Perspectives](../README.md)
-[< Prev](../README.md)  |  [Next >](../EventStorming/README.md)
+[< Prev](../C4Models/README.md)  |  [Next >](../../README.md#resources)

@@ -1,5 +1,5 @@
 [> Home](../../README.md)    [> Views & Perspectives](../README.md)
-[< Prev](../scenarios/README.md)  |  [Next >](../../README.md#resources)
+[< Prev](../scenarios/README.md)  |  [Next >](../CommunicationView/README.md)
 
 ---
 
@@ -76,4 +76,4 @@ The following diagram shows the individually deployable services in the User Man
 ---
 
 [> Home](../../README.md)    [> Views & Perspectives](../README.md)
-[< Prev](../scenarios/README.md)  |  [Next >](../../README.md#resources)
+[< Prev](../scenarios/README.md)  |  [Next >](../CommunicationView/README.md)
