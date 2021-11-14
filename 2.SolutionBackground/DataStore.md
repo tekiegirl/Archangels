@@ -51,6 +51,8 @@ The following diagram shows the initial design for the graph data store model.
 - Date a time could be stored either as properties on a node or relationship, or as relationships to date/time nodes, or a mixture of both. This can be altered to tune performance when required.
 - Properties of nodes and relationships are not shown on this high-level diagram.
 
+![GraphDatastoreModel](../assets/diagrams/GraphDatastoreModel.png)
+
 ### General Analysis
 
 - The graph structure lends itself well to analytics due to the nature of matching patterns when querying the graph.
@@ -63,12 +65,14 @@ The following diagram shows the initial design for the graph data store model.
   - Analytics on numbers, location, etc, of Customers who have specific medical or dietary Needs are easy to run by simple pattern matching.
 - Data that Clinics already have can be stored in the graph also, and used for analysis. (e.g. previous test results, not relating to any Customer, could be linked to a Test and to a Locale for analysis)
 
+![GraphDatastoreModel-MedicalAnalysis](../assets/diagrams/GraphDatastoreModel-MedicalAnalysis.png)
+
 ### Farmacy Foods Analysis
 
 - A Fridge is located in a Locale. This means that analysis of e.g. dietary requirements linked to a Locale can then be applied to that Fridge by Farmacy Foods.
 - This data could go further and link Ingredients and/or Meals to dietary and medical needs, and to a Fridge with an inventory relationship, to further add to analysis and recommendations for Farmacy Foods.
 
-![GraphDatastoreModel](../assets/diagrams/GraphDatastoreModel.png)
+![GraphDatastoreModel-MedicalAnalysis](../assets/diagrams/GraphDatastoreModel-FarmacyFoods.png)
 
 ### Community: Classes, Events & Forums
 
@@ -83,12 +87,16 @@ The following diagram shows the initial design for the graph data store model.
   - to show Posts the Customer has created that have a reply (an incoming PREVIOUS_POST relationship)
 - Extra relationships, e.g. ATTENDED or NO_SHOW, or properties on current relationships, e.g. attended: true/false on an ATTENDING relationship, could be added for analysis of this data.
 
+![GraphDatastoreModel-MedicalAnalysis](../assets/diagrams/GraphDatastoreModel-Community.png)
+
 ### Messaging
 
 - A Message can be sent by a Customer or Dietician.
   - A Customer sends a Message to a Clinic.
   - A Dietician works for a Clinic and can reply to a Message sent to the Clinic. (Security note: if a Dietician were to change the clinic they worked for they would only be able to access and reply to messages attached to their current Clinic. A WORKED_FOR relationship could be added for transparency.)
   - As the Dietician's Message is then linked to the original Message (REPY_TO) the Dietician can then be notified of any further messages in the chain, or another Dietician at the Clinic can answer a the new message in the chain.
+  
+  ![GraphDatastoreModel-MedicalAnalysis](../assets/diagrams/GraphDatastoreModel-Messaging.png)
 
 ## Next Steps
 
