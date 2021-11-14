@@ -14,6 +14,8 @@
 * Architecturally Significant Requirements
 * Significant Non-functional Requirements
 
+[Stakeholder Concerns](StakeholderConcerns.md)
+
 [Architecture Analysis](ArchitectureAnalysis.md)
 
 - Key architecture characteristics
@@ -30,8 +32,6 @@
 
 * List of known constraints
 * List of assumptions made
-
-[Stakeholder Concerns](StakeholderConcerns.md)
 
 [Raid Log](RAID.md)
 
