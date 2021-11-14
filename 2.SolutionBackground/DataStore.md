@@ -21,17 +21,23 @@ This type of data store is optimal for data that is not highly connected. The ne
 
 Relational is an option for data that is not highly connected and not involved in analytics.
 
+<img src="../assets/images/relational.png" width="150" height="150"/>
+
 ### Document
 
 This type of data store is also not optimal for data that is highly connected. It is good for data that is unstructured (not all the same), e.g. would not fit well into the tables in a relational database due to null entries in various columns in different rows.
 
 Analysis of the data required for Farmacy Family may show that a document store would be optimal for all or some of the non-analytical or highly connected data, e.g. profiles (where some users fill in all fields and others only a selection).
 
+<img src="../assets/images/diagram.png" width="150" height="150"/>
+
 ### Blob
 
 Binary Large Object storage is optimised for unstructured binary files that are large in size, e.g. videos and images. This would be the optimal type of storage for static content for Farmacy Family.
 
 [ADR: 009 We-will-use-a-blob-storage-for-static-content](../4.ADRs/009-We-will-use-a-blob-storage-for-static-content.md)
+
+<img src="../assets/images/binary-data.png" width="150" height="150"/>
 
 ### Graph
 
@@ -40,6 +46,8 @@ A graph database is optimal for highly connected data and can be very fast for p
 Without further analysis it would seem that a graph database would be optimal for the data that requires analytics and for also storing analytics of that data.
 
 [ADR: 008 We-will-use-a-graph-store-for-analytics](../4.ADRs/008-We-will-use-a-graph-store-for-analytics.md)
+
+<img src="../assets/images/nodes.png" width="150" height="150"/>
 
 ## Graph Datastore Design Overview
 
@@ -65,14 +73,14 @@ The following diagram shows the initial design for the graph data store model.
   - Analytics on numbers, location, etc, of Customers who have specific medical or dietary Needs are easy to run by simple pattern matching.
 - Data that Clinics already have can be stored in the graph also, and used for analysis. (e.g. previous test results, not relating to any Customer, could be linked to a Test and to a Locale for analysis)
 
-![GraphDatastoreModel-MedicalAnalysis](../assets/diagrams/GraphDatastoreModel-MedicalAnalysis.png)
+<img src="../assets/diagrams/GraphDatastoreModel-MedicalAnalysis.png" width="500"/>
 
 ### Farmacy Foods Analysis
 
 - A Fridge is located in a Locale. This means that analysis of e.g. dietary requirements linked to a Locale can then be applied to that Fridge by Farmacy Foods.
 - This data could go further and link Ingredients and/or Meals to dietary and medical needs, and to a Fridge with an inventory relationship, to further add to analysis and recommendations for Farmacy Foods.
 
-![GraphDatastoreModel-MedicalAnalysis](../assets/diagrams/GraphDatastoreModel-FarmacyFoods.png)
+<img src="../assets/diagrams/GraphDatastoreModel-FarmacyFoods.png" width="570"/>
 
 ### Community: Classes, Events & Forums
 
@@ -87,7 +95,7 @@ The following diagram shows the initial design for the graph data store model.
   - to show Posts the Customer has created that have a reply (an incoming PREVIOUS_POST relationship)
 - Extra relationships, e.g. ATTENDED or NO_SHOW, or properties on current relationships, e.g. attended: true/false on an ATTENDING relationship, could be added for analysis of this data.
 
-![GraphDatastoreModel-MedicalAnalysis](../assets/diagrams/GraphDatastoreModel-Community.png)
+<img src="../assets/diagrams/GraphDatastoreModel-Community.png" width="400"/>
 
 ### Messaging
 
@@ -96,7 +104,7 @@ The following diagram shows the initial design for the graph data store model.
   - A Dietician works for a Clinic and can reply to a Message sent to the Clinic. (Security note: if a Dietician were to change the clinic they worked for they would only be able to access and reply to messages attached to their current Clinic. A WORKED_FOR relationship could be added for transparency.)
   - As the Dietician's Message is then linked to the original Message (REPY_TO) the Dietician can then be notified of any further messages in the chain, or another Dietician at the Clinic can answer a the new message in the chain.
   
-  ![GraphDatastoreModel-MedicalAnalysis](../assets/diagrams/GraphDatastoreModel-Messaging.png)
+  <img src="../assets/diagrams/GraphDatastoreModel-Messaging.png" width="650"/>
 
 ## Next Steps
 
@@ -109,3 +117,7 @@ The following diagram shows the initial design for the graph data store model.
 
 [> Home](../README.md)    [> Solution Background](README.md)
 [< Prev](ArchitecturePatterns.md)  |  [Next >](Deployment.md)
+
+---
+
+[Above icons made by: relational: [ultimatearm](https://www.flaticon.com/authors/ultimatearm), diagram: [Becris](https://www.flaticon.com/authors/becris), binary-data: [Juicy-Fish](https://www.flaticon.com/authors/juicy-fish), nodes: [Vitaly Gorbachev](https://www.flaticon.com/authors/vitaly-gorbachev) from [www.flaticon.com](https://www.flaticon.com/)]
