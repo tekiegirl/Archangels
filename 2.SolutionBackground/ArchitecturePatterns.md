@@ -53,7 +53,7 @@ Both architecture options have trade-offs, but the trade-offs for the Event-Driv
 
 ### Decision
 
-ADR: [007 We-will-use-an-event-driven-backend-architecture](../4.ADRs/007-We-will-use-an-event-driven-backend-architecture.md)
+ADR: [002 We-will-use-an-event-driven-backend-architecture](../4.ADRs/002-We-will-use-an-event-driven-backend-architecture.md)
 
 ---
 
