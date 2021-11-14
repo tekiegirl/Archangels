@@ -9,7 +9,7 @@ This gives an overview of how data is being passed between the existing Farmacy 
 
 The existing solution already leverages a log stream as a means of aysnc communication between its boundaries. This will mean integration events can be easily introduced.
 This will require extending the current solution to emit events that must include more information such as the source of the event and payload type etc.
-As a result of this we should use cloud events. See [ADR003- Component Communication](../../assets/diagrams/FunctionalView.png)
+As a result of this we should use cloud events. See [ADR003- Component Communication](../../4.ADRs/003-component-communication.md)
 
 
 ![View Of Comunication](../../assets/diagrams/ffood-communication.png)
