@@ -44,7 +44,7 @@ The following diagram shows the individually deployable services in the Medical 
 
 - [005 use-crypto-shredding](../../4.ADRs/005-use-crypto-shredding.md)
 - [010 We-will-use-a-secure-data-solution](../../4.ADRs/010-We-will-use-a-secure-data-solution.md)
-- [017 Separate the Medical domain](017-We-will-split-medical-domain.md)
+- [017 Separate the Medical domain](../../4.ADRs/017-We-will-split-medical-domain.md)
 
 ![Medical Component Diagram](../../assets/diagrams/MedicalComponentDiagram.png)
 
