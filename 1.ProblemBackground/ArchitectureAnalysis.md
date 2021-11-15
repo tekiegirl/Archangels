@@ -168,10 +168,29 @@ See [Datastore Solution Overview](../2.SolutionBackground/DataStore.md).
 
 [ADR: Authentication and Authorisation of users will be used for human-system integration](../4.ADRs/019-use-auth-for-human-system-integration.md)
 
-Next Steps:
+---
+
+## Architectural Governance
+
+Compliance with Architectural decisions and designs is as important as compliance with security and code structure best practices. The latter are typically monitored using automated testing, audits, code reviews, acceptance criteria and penetration tests. The former is often forgotten and not even included in the acceptance criteria in a user story.
+
+### Fitness Functions
+
+Architectural Fitness Functions will be implemented in the Farmacy Family system in order to govern compliance to architectural decisions and designs. Non-compliance will need to be fixed (or if there is good reason the decision recorder in an ADR and the Fitness Functions updated), in the same way as a failing test.
+
+There are various options for implementing these functions, and either one option or a mixture could be optimal for this system. In AWS the following are some of the options to investigate:
+
+- CloudWatch - notifications of non-compliance can be sent as emails, etc
+- Kibana - a data visualization and exploration tool used for log and time-series analytics, application monitoring, and operational intelligence use cases
+- Lambdas - it may be optimal to write our own Fitness Functions as AWS Lambdas
+
+---
+
+## Next Steps:
 
 - [x] Make decisions and record in ADRs about system granularity.
 - [ ] Create diagrams of the granularity decided above.
+- [ ] Investigate options for Fitness Functions.
 
 ---
 
