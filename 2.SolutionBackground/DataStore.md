@@ -1,5 +1,5 @@
 [> Home](../README.md)    [> Solution Background](README.md)
-[< Prev](SystemApproach.md)  |  [Next >](Deployment.md)
+[< Prev](SystemApproach.md)  |  [Next >](Security.md)
 
 ---
 
@@ -116,7 +116,7 @@ The following diagram shows the initial design for the graph data store model.
 ---
 
 [> Home](../README.md)    [> Solution Background](README.md)
-[< Prev](SystemApproach.md)  |  [Next >](Deployment.md)
+[< Prev](SystemApproach.md)  |  [Next >](Security.md)
 
 ---
 

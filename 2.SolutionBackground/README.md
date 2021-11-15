@@ -32,6 +32,14 @@
 - Considered Data Store Approaches
 - Next Steps
 
+[Security](Security.md)
+
+- Identity & Access Management 
+- Data Law & Compliance
+- Network & Infrastructure
+- Data Protection
+- Threat Detection & Monitoring
+
 [Deployment](Deployment.md)
 
 * Infrastructure
