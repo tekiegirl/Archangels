@@ -60,11 +60,20 @@ The following diagram shows the individually deployable services in the User Man
 
 ![User Component Diagram](../../assets/diagrams/UserComponentDiagram.png)
 
+### Analytics Management
+
+The following diagram shows the individually deployable services in the Analytics Management domain, and how they interact with each other, users and other domains.
+
+#### Relevant ADRs
+
+- [015 Separate the Analytics domain](015-We-will-split-analytics-domain.md)
+
+![User Component Diagram](../../assets/diagrams/AnalyticsComponentDiagram.png)
 
 ## Next Steps
 
-- [ ] Add Analytics Management
-- [ ] Add Events Management
+- [x] Add Analytics Management
+- [ ] Add Community Management
 - [ ] Add Datastore Management
 - [ ] Add Messaging Management
 
