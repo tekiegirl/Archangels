@@ -21,10 +21,6 @@
 - Architecture Capabilities Analysis
 - Conclusion
 
-[System Approach](SystemApproach.md)
-
-- Overview
-
 [Conceptual System Design](Conceptual.md)
 
 - C4 Context Diagram

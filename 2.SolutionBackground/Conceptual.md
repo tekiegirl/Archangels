@@ -1,5 +1,5 @@
 [> Home](../README.md)    [> Solution Background](README.md)
-[< Prev](SystemApproach.md)  |  [Next >](DataStore.md)
+[< Prev](ArchitecturePatterns.md)  |  [Next >](DataStore.md)
 
 ---
 
