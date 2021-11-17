@@ -22,17 +22,19 @@ Welcome to our entry to the O'Reilly Spring 2021 Architectural Kata. The aim of 
 [Problem Background](1.ProblemBackground/README.md)
 
 - [Business Goals, Drivers & Requirements](1.ProblemBackground/BusinessGoalsDriversAndRequirements.md)
+- [Stakeholder Concerns](1.ProblemBackground/StakeholderConcerns.md)
 - [Architecture Analysis](1.ProblemBackground/ArchitectureAnalysis.md)
 - [Actors, Actions & Significant Scenarios](1.ProblemBackground/ActorsActionsAndSignificantScenarios.md)
 - [Constraints & Assumptions](1.ProblemBackground/ConstraintsAndAssumptions.md)
-- [Stakeholder Concerns](1.ProblemBackground/StakeholderConcerns.md)
 - [RAID Log](1.ProblemBackground/RAID.md)
 
 [Solution Background](2.SolutionBackground/README.md)
 
 - [Architecture Principles](2.SolutionBackground/ArchitecturePrinciples.md)
 - [Overall Architecture Style Analysis](2.SolutionBackground/ArchitecturePatterns.md)
+- [Conceptual System Design](2.SolutionBackground/Conceptual.md)
 - [Data Store Solution](2.SolutionBackground/DataStore.md)
+- [Security](2.SolutionBackground/Security.md)
 - [Deployment](2.SolutionBackground/Deployment.md)
 - [Roadmap](2.SolutionBackground/Roadmap.md)
 - [ADRs](4.ADRs/README.md)
