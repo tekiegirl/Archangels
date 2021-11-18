@@ -48,9 +48,18 @@ The following are the most architecturally significant Component diagrams for th
 #### Relevant ADRs
 
 - [011 Separate the User domain](../../4.ADRs/011-We-will-separate-the-user-domain.md)
-- [019 Use Authentication and Authorisation for human-system integration](019-use-auth-for-human-system-integration.md)
+- [019 Use Authentication and Authorisation for human-system integration](../../4.ADRs/019-use-auth-for-human-system-integration.md)
 
 ![User Component Diagram](../assets/diagrams/UserComponentDiagram.png)
+
+### Analytics
+
+#### Relevant ADRs
+
+- [008 Use a graph store for analytics](../../4.ADRs/008-We-will-use-a-graph-store-for-analytics.md)
+- [015 Separate the Analytics domain](../../4.ADRs/015-We-will-split-analytics-domain.md)
+
+![AnalyticsComponentDiagram](../assets/diagrams/AnalyticsComponentDiagram.png)
 
 ---
 
