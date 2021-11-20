@@ -1,0 +1,2 @@
+Analytics uses data such as greographical trends, ingredients, dietrary & medical needs for analysis.
+The results for a Locale drive the food distributed to the fridge in that Locale by Farmacy Foods.
