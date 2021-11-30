@@ -7,7 +7,7 @@
 
 [001 We are using ADRs (template)](001We-are-using-ADRs-(template).md)
 
-[002 Overall approach](002-overall-approach.md)
+[002 Use an event-driven backend architecture](002-We-will-use-an-event-driven-backend-architecture.md)
 
 [003 Component communication](003-component-communication.md)
 
@@ -16,8 +16,6 @@
 [005 Use crypto-shredding](005-use-crypto-shredding.md)
 
 [006 Consider buy-vs-build](006-consider-buy-vs-build.md)
-
-[007 Use an event-driven backend architecture](007-We-will-use-an-event-driven-backend-architecture.md)
 
 [008 Use a graph store for analytics](008-We-will-use-a-graph-store-for-analytics.md)
 
