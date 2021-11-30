@@ -1,5 +1,7 @@
 # Architectural Kata Autumn 2021 - The Archangels
 
+<img src="/assets/images/gold-medal.png" width="150" height="150"/> 1st Place Winners
+
 This documentation repository is hosted on GitHub here: https://github.com/tekiegirl/Archangels
 
 Welcome to our entry to the O'Reilly Spring 2021 Architectural Kata. The aim of this documentation repository is to communicate our design for the problem described, for a stakeholder and development team audience.
@@ -7,10 +9,9 @@ Welcome to our entry to the O'Reilly Spring 2021 Architectural Kata. The aim of 
 <img src="assets/images/TheArchangels.png" alt="TheArchangels" style="zoom:50%;" />
 
 ## Members
-- Jacqui Read [[LinkedIn](https://www.linkedin.com/in/jacquelineread/)]
-- John McCarthy
+- Jacqui Read [[LinkedIn](https://www.linkedin.com/in/jacquelineread/)] ([see my previous 3rd place kata entry](https://github.com/tekiegirl/TheMadKatas))
 - Luke Gee [[LinkedIn](https://www.linkedin.com/in/luke-gee-nbyuk/)]
-- Shenal Silva
+- Shenal Silva [[LinkedIn](https://www.linkedin.com/in/shenalsilva/)]
 - Vikram Pawar [[LinkedIn](https://www.linkedin.com/in/vikrammpawar/)]
 
 ## Solution Structure
@@ -61,3 +62,7 @@ Welcome to our entry to the O'Reilly Spring 2021 Architectural Kata. The aim of 
 - [EventStorming](https://www.eventstorming.com/)
 - [Sky flow data privacy vault via a simple API](https://www.skyflow.com/)  
 - [Vanilla for Forums and events ](https://vanillaforums.com/en/)
+
+---
+
+[Above gold-medal icon made by [Freepik](https://www.freepik.com) from [www.flaticon.com](https://www.flaticon.com/)]
