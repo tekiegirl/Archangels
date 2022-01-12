@@ -1,6 +1,6 @@
 # Architectural Kata Autumn 2021 - The Archangels
 
-<img src="/assets/images/goldmedal.png" width="150" height="150"/> 1st Place Winners
+<img src="assets/images/gold-medal.png" width="150" height="150"/> 1st Place Winners
 
 > This documentation repository is hosted on GitHub here: https://github.com/tekiegirl/Archangels
 
