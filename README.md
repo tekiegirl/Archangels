@@ -1,8 +1,8 @@
 # Architectural Kata Autumn 2021 - The Archangels
 
-<img src="assets/images/gold-medal.png" width="150" height="150"/> 1st Place Winners
+<img src="assets/images/gold-medal.png" width="150" height="150"/> **1st Place Winners of the O'Reilly Architecture Kata Fall/Autumn 2021**
 
-> This documentation repository is hosted on GitHub here: https://github.com/tekiegirl/Archangels
+> This documentation repository is hosted on GitHub here: [https://github.com/tekiegirl/Archangels](https://github.com/tekiegirl/Archangels)
 
 Welcome to our entry to the O'Reilly Spring 2021 Architectural Kata. The aim of this documentation repository is to communicate our design for the problem described, for a stakeholder and development team audience.
 
